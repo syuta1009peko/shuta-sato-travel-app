@@ -1,0 +1,1329 @@
+{
+  "cityId": "chiba",
+  "cityNameJa": "千葉",
+  "citySummaryJa": "成田の門前町から海辺・水郷まで、一日で雰囲気を変えられる県",
+  "places": [
+    {
+      "id": "naritasan-shinshoji",
+      "nameJa": "成田山新勝寺",
+      "category": "attraction",
+      "area": "成田",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 80,
+      "openLabel": "8:00",
+      "closeLabel": "16:00",
+      "priceRange": 1,
+      "tags": [
+        "history",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "千葉を代表する寺院。参道から本堂まで歩いて巡る。",
+      "reasonHintJa": "歴史ある寺をゆったり参拝できる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Naritasan_Shinshoji_Temple_01.jpg?width=800"
+    },
+    {
+      "id": "naritasan-park",
+      "nameJa": "成田山公園",
+      "category": "attraction",
+      "area": "成田",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "nature",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed",
+        "budget"
+      ],
+      "descriptionJa": "池と緑が続く庭園。参拝のあとに歩きやすい。",
+      "reasonHintJa": "寺のすぐそばで自然を楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Park%20%40%20Naritasan%20Shinshoji%20Temple%20%40%20Narita%20(15078214270).jpg?width=800"
+    },
+    {
+      "id": "narita-omotesando",
+      "nameJa": "成田山門前町",
+      "category": "attraction",
+      "area": "成田",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "shopping",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget",
+        "foodie"
+      ],
+      "descriptionJa": "うなぎや土産物が並ぶ参道。買い物と食べ歩き向き。",
+      "reasonHintJa": "参道らしい店を見て回れる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Naritasan-Omotesando%20sign.JPG?width=800"
+    },
+    {
+      "id": "narita-crafts",
+      "nameJa": "成田の伝統工芸店",
+      "category": "attraction",
+      "area": "成田",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "art",
+        "shopping"
+      ],
+      "ageMin": 10,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget"
+      ],
+      "descriptionJa": "地元の工芸品を扱う店が集まる一角。",
+      "reasonHintJa": "手作りの品をゆっくり選べる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20Pottery%20Shop%20%285661120441%29.jpg?width=800"
+    },
+    {
+      "id": "naritasan-lightup",
+      "nameJa": "成田山ライトアップ",
+      "category": "attraction",
+      "area": "成田",
+      "timeSlots": [
+        "evening"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "17:00",
+      "closeLabel": "21:00",
+      "priceRange": 1,
+      "tags": [
+        "nightlife",
+        "photo"
+      ],
+      "ageMin": 12,
+      "ageMax": 80,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "夜に境内が灯る時間帯。静かな夜の見学向け。",
+      "reasonHintJa": "にぎやかすぎない夜の景色が撮れる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%A5%A0%20-%2052106851660.jpg?width=800"
+    },
+    {
+      "id": "narita-airport-observation",
+      "nameJa": "成田空港展望デッキ",
+      "category": "attraction",
+      "area": "成田",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "7:00",
+      "closeLabel": "21:00",
+      "priceRange": 3,
+      "tags": [
+        "photo",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "active"
+      ],
+      "descriptionJa": "飛行機の離着陸を間近で見られる展望施設。",
+      "reasonHintJa": "動く被写体の写真を撮りたい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Narita%20International%20Air%20Port%20(cropped).jpg?width=800"
+    },
+    {
+      "id": "chiba-port-tower",
+      "nameJa": "千葉ポートタワー",
+      "category": "attraction",
+      "area": "千葉市中央",
+      "timeSlots": [
+        "afternoon",
+        "evening"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "9:00",
+      "closeLabel": "21:00",
+      "priceRange": 2,
+      "tags": [
+        "photo",
+        "walking"
+      ],
+      "ageMin": 8,
+      "ageMax": 80,
+      "lifestyle": [
+        "luxury"
+      ],
+      "descriptionJa": "港を見下ろすタワー。夕方からの景色がきれい。",
+      "reasonHintJa": "高い場所からの眺めを楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiba_Port_Tower_01.jpg?width=800"
+    },
+    {
+      "id": "inohana-castle",
+      "nameJa": "亥鼻公園・千葉城",
+      "category": "attraction",
+      "area": "千葉市中央",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "history",
+        "nature"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "丘の上の公園と郷土の城。緑と歴史が一緒にある。",
+      "reasonHintJa": "公園散歩と歴史をまとめられる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiba%20castle.jpg?width=800"
+    },
+    {
+      "id": "chiba-city-museum",
+      "nameJa": "千葉市美術館",
+      "category": "attraction",
+      "area": "千葉市中央",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 80,
+      "openLabel": "10:00",
+      "closeLabel": "18:00",
+      "priceRange": 2,
+      "tags": [
+        "art",
+        "history"
+      ],
+      "ageMin": 10,
+      "ageMax": 80,
+      "lifestyle": [
+        "relaxed",
+        "luxury"
+      ],
+      "descriptionJa": "浮世絵から現代まで扱う美術館。空調の中で見学できる。",
+      "reasonHintJa": "美術をじっくり見たい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/KyuuKawasakiGinkouChibashiten.jpg?width=800"
+    },
+    {
+      "id": "chiba-park-lotus",
+      "nameJa": "千葉公園の蓮池",
+      "category": "attraction",
+      "area": "千葉市中央",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "nature",
+        "photo"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed",
+        "budget"
+      ],
+      "descriptionJa": "大きな池と蓮が見どころの公園。無料で歩きやすい。",
+      "reasonHintJa": "街中で花と水面の写真が撮れる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiba%20Koen-5.JPG?width=800"
+    },
+    {
+      "id": "chuo-park-night",
+      "nameJa": "中央公園ナイトウォーク",
+      "category": "attraction",
+      "area": "千葉市中央",
+      "timeSlots": [
+        "evening"
+      ],
+      "durationMinutes": 40,
+      "openLabel": "18:00",
+      "closeLabel": "22:00",
+      "priceRange": 3,
+      "tags": [
+        "nightlife",
+        "walking"
+      ],
+      "ageMin": 16,
+      "ageMax": 70,
+      "lifestyle": [
+        "active"
+      ],
+      "descriptionJa": "駅近くの公園を夜に歩く短いコース。",
+      "reasonHintJa": "移動が少なく夜の散歩ができる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%8D%83%E8%91%89%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%85%AC%E5%9C%92%E3%83%98%E3%83%AC%E3%83%B3%E3%83%BB%E3%82%B1%E3%83%A9%E3%83%BC%E5%83%8F%E5%8F%B0%E5%BA%A7%E6%AD%A3%E9%9D%A2.jpg?width=800"
+    },
+    {
+      "id": "kibor-shopping",
+      "nameJa": "きぼーる周辺ショッピング",
+      "category": "attraction",
+      "area": "千葉市中央",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 80,
+      "openLabel": "10:00",
+      "closeLabel": "21:00",
+      "priceRange": 2,
+      "tags": [
+        "shopping",
+        "photo"
+      ],
+      "ageMin": 0,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget"
+      ],
+      "descriptionJa": "市役所周辺の複合施設。買い物と休憩に便利。",
+      "reasonHintJa": "雨の日でも店を見て回れる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Perie%20station%20building%20JR%20Chiba%20station%2020191225.jpg?width=800"
+    },
+    {
+      "id": "makuhari-kaihin-park",
+      "nameJa": "幕張海浜公園",
+      "category": "attraction",
+      "area": "幕張・海浜",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "nature",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "active"
+      ],
+      "descriptionJa": "海と芝生が広い公園。風を感じながら歩ける。",
+      "reasonHintJa": "開放的な海辺で体を動かせる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Makuhari_Seaside_Park_1.JPG?width=800"
+    },
+    {
+      "id": "aeon-makuhari",
+      "nameJa": "イオンモール幕張新都心",
+      "category": "attraction",
+      "area": "幕張・海浜",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 90,
+      "openLabel": "10:00",
+      "closeLabel": "21:00",
+      "priceRange": 2,
+      "tags": [
+        "shopping",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget",
+        "luxury"
+      ],
+      "descriptionJa": "大型モール。買い物から食事まで一箇所で済む。",
+      "reasonHintJa": "種類の多い店をまとめて回れる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%82%A8%E3%82%AD%E3%83%9E%E3%82%A8%E3%83%A2%E3%83%BC%E3%83%AB%E3%81%AE1F%E3%82%A8%E3%82%B9%E3%82%AB%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC%E5%91%A8%E8%BE%BA.jpg?width=800"
+    },
+    {
+      "id": "zozo-marine",
+      "nameJa": "ZOZOマリンスタジアム周辺",
+      "category": "attraction",
+      "area": "幕張・海浜",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "walking",
+        "photo"
+      ],
+      "ageMin": 8,
+      "ageMax": 70,
+      "lifestyle": [
+        "active"
+      ],
+      "descriptionJa": "球場周辺を歩くコース。スポーツの雰囲気を感じられる。",
+      "reasonHintJa": "海浜エリアをアクティブに歩ける",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiba%20Marine%20Stadium.jpg?width=800"
+    },
+    {
+      "id": "makuhari-night",
+      "nameJa": "幕張メッセ周辺の夜景",
+      "category": "attraction",
+      "area": "幕張・海浜",
+      "timeSlots": [
+        "evening"
+      ],
+      "durationMinutes": 45,
+      "openLabel": "18:00",
+      "closeLabel": "22:00",
+      "priceRange": 3,
+      "tags": [
+        "nightlife",
+        "photo"
+      ],
+      "ageMin": 18,
+      "ageMax": 70,
+      "lifestyle": [
+        "luxury"
+      ],
+      "descriptionJa": "大きな建物と通りの明かりが続く夜の景色。",
+      "reasonHintJa": "都会的な夜景を撮りたい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Makuhari%20Messe%2020111122c.jpg?width=800"
+    },
+    {
+      "id": "inage-kaihin",
+      "nameJa": "稲毛海浜公園",
+      "category": "attraction",
+      "area": "幕張・海浜",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 80,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "walking",
+        "nature"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "active",
+        "relaxed"
+      ],
+      "descriptionJa": "砂浜と緑がある海浜公園。散歩やピクニック向き。",
+      "reasonHintJa": "海沿いを長く歩ける",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiba%20beach.jpg?width=800"
+    },
+    {
+      "id": "makuhari-art",
+      "nameJa": "幕張のアートスポット",
+      "category": "attraction",
+      "area": "幕張・海浜",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 3,
+      "tags": [
+        "art",
+        "photo"
+      ],
+      "ageMin": 12,
+      "ageMax": 80,
+      "lifestyle": [
+        "luxury"
+      ],
+      "descriptionJa": "展示やパブリックアートを見て回るコース。",
+      "reasonHintJa": "新しい作品に触れたい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Makuhari%20Messe%2C%20North%20hall%202.jpg?width=800"
+    },
+    {
+      "id": "tokyo-disneyland",
+      "nameJa": "東京ディズニーランド",
+      "category": "attraction",
+      "area": "舞浜・浦安",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 540,
+      "openLabel": "9:00",
+      "closeLabel": "21:00",
+      "priceRange": 3,
+      "tags": [
+        "photo",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "active",
+        "luxury"
+      ],
+      "descriptionJa": "浦安市舞浜にあるテーマパーク。城やパレードを見て一日を過ごせる。",
+      "reasonHintJa": "写真と乗り物を楽しみたい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo%20Disneyland%20Cinderella%20Castle%202023-07-02.jpg?width=800"
+    },
+    {
+      "id": "tokyo-disneysea",
+      "nameJa": "東京ディズニーシー",
+      "category": "attraction",
+      "area": "舞浜・浦安",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 540,
+      "openLabel": "9:00",
+      "closeLabel": "21:00",
+      "priceRange": 3,
+      "tags": [
+        "photo",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "active",
+        "luxury"
+      ],
+      "descriptionJa": "海をテーマにしたパーク。港町の景色を歩きながら楽しめる。",
+      "reasonHintJa": "写真映えする景色を長く見たい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo%20DisneySea%20Mediterranean%20Harbour%20View1%20201306.jpg?width=800"
+    },
+    {
+      "id": "ikspiari",
+      "nameJa": "イクスピアリ",
+      "category": "attraction",
+      "area": "舞浜・浦安",
+      "timeSlots": [
+        "afternoon",
+        "evening"
+      ],
+      "durationMinutes": 90,
+      "openLabel": "10:00",
+      "closeLabel": "21:00",
+      "priceRange": 2,
+      "tags": [
+        "shopping",
+        "foodie"
+      ],
+      "ageMin": 0,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget",
+        "luxury"
+      ],
+      "descriptionJa": "舞浜駅前の商業施設。買い物と食事をまとめてできる。",
+      "reasonHintJa": "パークの前後に店を見て回れる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gate%20of%20the%20Ikspiari.jpg?width=800"
+    },
+    {
+      "id": "urayasu-folk-museum",
+      "nameJa": "浦安市郷土博物館",
+      "category": "attraction",
+      "area": "舞浜・浦安",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "9:30",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "history",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "漁師町だった頃の長屋や暮らしを見る博物館。",
+      "reasonHintJa": "ディズニー以外の浦安の歴史を知れる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Urayasu%20City%20Folk%20Museum%2002.jpg?width=800"
+    },
+    {
+      "id": "maihama-station-walk",
+      "nameJa": "舞浜駅周辺の散策",
+      "category": "attraction",
+      "area": "舞浜・浦安",
+      "timeSlots": [
+        "afternoon",
+        "evening"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "10:00",
+      "closeLabel": "21:00",
+      "priceRange": 1,
+      "tags": [
+        "photo",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed",
+        "active"
+      ],
+      "descriptionJa": "舞浜駅からパーク入口までの通りを歩く。写真向きの景色がある。",
+      "reasonHintJa": "移動しながらリゾートの雰囲気を味わえる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gate%20of%20Tokyo%20Disneyland%20by%20Maihama%20Station.jpg?width=800"
+    },
+    {
+      "id": "urayasu-sports-park",
+      "nameJa": "浦安市総合公園",
+      "category": "attraction",
+      "area": "舞浜・浦安",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "nature",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed",
+        "active"
+      ],
+      "descriptionJa": "芝生と遊具がある広い公園。ゆったり歩ける。",
+      "reasonHintJa": "パーク以外で体を休めたい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Urayasu%20city%20sports%20park%20-%20aerial.jpg?width=800"
+    },
+    {
+      "id": "ikspiari-disney-store",
+      "nameJa": "イクスピアリのディズニーストア",
+      "category": "attraction",
+      "area": "舞浜・浦安",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "10:00",
+      "closeLabel": "21:00",
+      "priceRange": 2,
+      "tags": [
+        "shopping"
+      ],
+      "ageMin": 0,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget",
+        "luxury"
+      ],
+      "descriptionJa": "商業施設内の公式ショップ。お土産探しに向く。",
+      "reasonHintJa": "パークに入らず買い物を楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Disney%20Store%20at%20Ikspiari.jpg?width=800"
+    },
+    {
+      "id": "sawara-town",
+      "nameJa": "佐原の町並み",
+      "category": "attraction",
+      "area": "佐原・香取",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 90,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "history",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "小江戸と呼ばれる古い商家の町。水路沿いを歩ける。",
+      "reasonHintJa": "昔の町の雰囲気をゆっくり味わえる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Street%20View%20of%20Sawara%2C%20Katori.JPG?width=800"
+    },
+    {
+      "id": "katori-jingu",
+      "nameJa": "香取神宮",
+      "category": "attraction",
+      "area": "佐原・香取",
+      "timeSlots": [
+        "morning"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "8:00",
+      "closeLabel": "16:00",
+      "priceRange": 1,
+      "tags": [
+        "history",
+        "nature"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed",
+        "budget"
+      ],
+      "descriptionJa": "杉並木が続く古社。朝の参拝がおすすめ。",
+      "reasonHintJa": "森の中で歴史に触れられる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Path%20to%20Katori%20Shrine%2C%20Chiba%3B%202010.jpg?width=800"
+    },
+    {
+      "id": "suigo-boat",
+      "nameJa": "水郷の舟めぐり",
+      "category": "attraction",
+      "area": "佐原・香取",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "9:00",
+      "closeLabel": "16:00",
+      "priceRange": 3,
+      "tags": [
+        "nature",
+        "photo"
+      ],
+      "ageMin": 6,
+      "ageMax": 80,
+      "lifestyle": [
+        "relaxed",
+        "luxury"
+      ],
+      "descriptionJa": "川から町と水辺を見る遊覧。写真向きの景色が多い。",
+      "reasonHintJa": "水辺の風景をゆったり見られる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sappa-bune%2CSmall%20ship%20of%20the%20Suigo%20district%2CKatori-city%2CJapan.jpg?width=800"
+    },
+    {
+      "id": "onogawa",
+      "nameJa": "小野川沿いの散歩",
+      "category": "attraction",
+      "area": "佐原・香取",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 3,
+      "tags": [
+        "walking",
+        "photo"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "舟と蔵が並ぶ川沿い。平坦で歩きやすい。",
+      "reasonHintJa": "無理なく散策と写真撮影ができる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/First%20Suigo%20Bridge%2CSawara-city%2CJapan.jpg?width=800"
+    },
+    {
+      "id": "sawara-lantern",
+      "nameJa": "佐原の夜の町灯",
+      "category": "attraction",
+      "area": "佐原・香取",
+      "timeSlots": [
+        "evening"
+      ],
+      "durationMinutes": 45,
+      "openLabel": "18:00",
+      "closeLabel": "22:00",
+      "priceRange": 1,
+      "tags": [
+        "nightlife",
+        "history"
+      ],
+      "ageMin": 12,
+      "ageMax": 80,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "夜の蔵造りの町を歩く。静かで落ち着いた夜。",
+      "reasonHintJa": "古い町の夜の雰囲気を味わえる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sawara%20festival%2CHonkawagishi%2CKatori-city%2CJapan.JPG?width=800"
+    },
+    {
+      "id": "katori-crafts",
+      "nameJa": "香取の工芸体験施設",
+      "category": "attraction",
+      "area": "佐原・香取",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 80,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 3,
+      "tags": [
+        "art",
+        "shopping"
+      ],
+      "ageMin": 10,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget",
+        "luxury"
+      ],
+      "descriptionJa": "地元の工芸を見たり、作品を買ったりできる施設。",
+      "reasonHintJa": "手仕事に触れたい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lacquer%20picnic%20set%20Asian%20Art%20Museum%20SF%20B60M156%209.JPG?width=800"
+    },
+    {
+      "id": "mother-farm",
+      "nameJa": "マザー牧場",
+      "category": "attraction",
+      "area": "房総・内陸",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 120,
+      "openLabel": "9:30",
+      "closeLabel": "17:00",
+      "priceRange": 3,
+      "tags": [
+        "nature",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 12,
+      "lifestyle": [
+        "active"
+      ],
+      "descriptionJa": "動物と丘の景色が楽しめる牧場。家族向け。",
+      "reasonHintJa": "子どもと自然の中で過ごせる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mother%20farm%202018.jpg?width=800"
+    },
+    {
+      "id": "nihonji-daibutsu",
+      "nameJa": "日本寺大仏・鋸山",
+      "category": "attraction",
+      "area": "房総・内陸",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 100,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "history",
+        "art"
+      ],
+      "ageMin": 8,
+      "ageMax": 80,
+      "lifestyle": [
+        "active",
+        "relaxed"
+      ],
+      "descriptionJa": "大きな石仏と山の眺め。歴史と造形を一緒に見られる。",
+      "reasonHintJa": "大きな仏像に会いに行ける",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nihon-ji_Daibutsu.jpg?width=800"
+    },
+    {
+      "id": "tokyo-german-village",
+      "nameJa": "東京ドイツ村",
+      "category": "attraction",
+      "area": "房総・内陸",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 180,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 3,
+      "tags": [
+        "photo",
+        "art"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "luxury"
+      ],
+      "descriptionJa": "花と建物の写真映えする公園。季節の景色が楽しめる。",
+      "reasonHintJa": "カラフルな写真を撮りたい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo%20German%20Village.jpg?width=800"
+    },
+    {
+      "id": "tateyama-shopping",
+      "nameJa": "館山の商店街散策",
+      "category": "attraction",
+      "area": "房総・内陸",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "shopping",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget",
+        "foodie"
+      ],
+      "descriptionJa": "海辺の街の店を見て回るコース。地元のお菓子も見つかる。",
+      "reasonHintJa": "観光地すぎない店を覗ける",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%A4%A8%E5%B1%B1%E9%A7%85%E5%89%8D.jpg?width=800"
+    },
+    {
+      "id": "flower-line",
+      "nameJa": "南房総フラワーライン",
+      "category": "attraction",
+      "area": "房総・内陸",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 3,
+      "tags": [
+        "photo",
+        "nature"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "active"
+      ],
+      "descriptionJa": "花と海が続くドライブ・散策向きのルート。",
+      "reasonHintJa": "開放的な景色の写真が撮れる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Boso%20Flower%20Line%20starting%20point%20%28Daijingu%2C%20Tateyama%20City%29.jpg?width=800"
+    },
+    {
+      "id": "nokogiri-yama",
+      "nameJa": "鋸山ハイキング",
+      "category": "attraction",
+      "area": "房総・内陸",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 110,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "walking",
+        "nature"
+      ],
+      "ageMin": 12,
+      "ageMax": 70,
+      "lifestyle": [
+        "active"
+      ],
+      "descriptionJa": "崖と展望が特徴の山歩き。体力に応じて楽しめる。",
+      "reasonHintJa": "本格的に歩いて景色を見たい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Nokogiri%20Nature.jpg?width=800"
+    },
+    {
+      "id": "unagi-narita",
+      "nameJa": "成田のうなぎ料理",
+      "category": "restaurant",
+      "area": "成田",
+      "timeSlots": [
+        "lunch",
+        "dinner"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "11:00",
+      "closeLabel": "21:00",
+      "priceRange": 3,
+      "tags": [
+        "foodie"
+      ],
+      "ageMin": 8,
+      "ageMax": 80,
+      "lifestyle": [
+        "luxury",
+        "foodie"
+      ],
+      "descriptionJa": "門前町名物のうなぎ。特別感のある食事。",
+      "reasonHintJa": "成田らしいごちそうを食べられる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Unadon%20%E3%81%86%E3%81%AA%E4%B8%BC.jpg?width=800"
+    },
+    {
+      "id": "kaisendon-chiba",
+      "nameJa": "千葉港の海鮮丼",
+      "category": "restaurant",
+      "area": "千葉市中央",
+      "timeSlots": [
+        "lunch"
+      ],
+      "durationMinutes": 45,
+      "openLabel": "11:00",
+      "closeLabel": "15:00",
+      "priceRange": 2,
+      "tags": [
+        "foodie"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "foodie",
+        "budget"
+      ],
+      "descriptionJa": "港近くで食べる海鮮丼。昼に向く。",
+      "reasonHintJa": "新鮮な魚を手頃に楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaisendon.jpg?width=800"
+    },
+    {
+      "id": "ramen-makuhari",
+      "nameJa": "幕張のラーメン",
+      "category": "restaurant",
+      "area": "幕張・海浜",
+      "timeSlots": [
+        "lunch",
+        "dinner"
+      ],
+      "durationMinutes": 40,
+      "openLabel": "11:00",
+      "closeLabel": "21:00",
+      "priceRange": 1,
+      "tags": [
+        "foodie"
+      ],
+      "ageMin": 8,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget",
+        "foodie"
+      ],
+      "descriptionJa": "海浜エリアのラーメン店。気軽な一食。",
+      "reasonHintJa": "コスパよくお腹を満たせる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ramen.jpg?width=800"
+    },
+    {
+      "id": "kaiseki-sawara",
+      "nameJa": "佐原の和食ディナー",
+      "category": "restaurant",
+      "area": "佐原・香取",
+      "timeSlots": [
+        "dinner"
+      ],
+      "durationMinutes": 90,
+      "openLabel": "17:30",
+      "closeLabel": "21:00",
+      "priceRange": 3,
+      "tags": [
+        "foodie",
+        "art"
+      ],
+      "ageMin": 18,
+      "ageMax": 80,
+      "lifestyle": [
+        "luxury",
+        "foodie"
+      ],
+      "descriptionJa": "古い町にある和食店。夜の食事向け。",
+      "reasonHintJa": "雰囲気ごと食事を楽しみたい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hyotei%20Kaiseki.jpg?width=800"
+    },
+    {
+      "id": "boso-seafood",
+      "nameJa": "房総の海鮮定食",
+      "category": "restaurant",
+      "area": "房総・内陸",
+      "timeSlots": [
+        "dinner"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "17:00",
+      "closeLabel": "21:00",
+      "priceRange": 2,
+      "tags": [
+        "foodie"
+      ],
+      "ageMin": 8,
+      "ageMax": 80,
+      "lifestyle": [
+        "foodie",
+        "active"
+      ],
+      "descriptionJa": "海の幸を使った定食。夜にしっかり食べられる。",
+      "reasonHintJa": "その土地の魚を味わえる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sashimi.jpg?width=800"
+    },
+    {
+      "id": "teishoku-chuo",
+      "nameJa": "千葉中央の定食屋",
+      "category": "restaurant",
+      "area": "千葉市中央",
+      "timeSlots": [
+        "lunch"
+      ],
+      "durationMinutes": 40,
+      "openLabel": "11:00",
+      "closeLabel": "15:00",
+      "priceRange": 1,
+      "tags": [
+        "foodie"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "budget",
+        "relaxed"
+      ],
+      "descriptionJa": "バランスのよい定食。昼に落ち着いて食べられる。",
+      "reasonHintJa": "無理なく昼食をとれる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20set%20meal%20with%20tonkatsu.jpg?width=800"
+    },
+    {
+      "id": "restaurant-ikspiari",
+      "nameJa": "イクスピアリのレストラン",
+      "category": "restaurant",
+      "area": "舞浜・浦安",
+      "timeSlots": [
+        "lunch",
+        "dinner"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "11:00",
+      "closeLabel": "21:00",
+      "priceRange": 3,
+      "tags": [
+        "foodie"
+      ],
+      "ageMin": 8,
+      "ageMax": 80,
+      "lifestyle": [
+        "luxury",
+        "foodie"
+      ],
+      "descriptionJa": "商業施設内のレストラン。パークの前後の食事に向く。",
+      "reasonHintJa": "雰囲気のある店でゆっくり食べられる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%83%AC%E3%83%83%E3%83%89%E3%83%AD%E3%83%96%E3%82%B9%E3%82%BF%E3%83%BC%E8%88%9E%E6%B5%9C%E3%82%A4%E3%82%AF%E3%82%B9%E3%83%94%E3%82%A2%E3%83%AA%E5%BA%97.jpg?width=800"
+    },
+    {
+      "id": "cafe-naritasan",
+      "nameJa": "参道の甘味カフェ",
+      "category": "cafe",
+      "area": "成田",
+      "timeSlots": [
+        "snack"
+      ],
+      "durationMinutes": 35,
+      "openLabel": "10:00",
+      "closeLabel": "18:00",
+      "priceRange": 1,
+      "tags": [
+        "cafe",
+        "foodie"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed",
+        "budget"
+      ],
+      "descriptionJa": "参道沿いの甘味と飲み物。午後の休憩に向く。",
+      "reasonHintJa": "歩いたあとに甘味で休める",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Matcha.jpg?width=800"
+    },
+    {
+      "id": "cafe-kaihin",
+      "nameJa": "海浜公園のカフェ",
+      "category": "cafe",
+      "area": "幕張・海浜",
+      "timeSlots": [
+        "snack"
+      ],
+      "durationMinutes": 40,
+      "openLabel": "10:00",
+      "closeLabel": "18:00",
+      "priceRange": 2,
+      "tags": [
+        "cafe",
+        "photo"
+      ],
+      "ageMin": 12,
+      "ageMax": 70,
+      "lifestyle": [
+        "relaxed",
+        "luxury"
+      ],
+      "descriptionJa": "海の近くで休めるカフェ。窓からの景色がよい。",
+      "reasonHintJa": "景色を見ながらコーヒーを飲める",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Coffee%20shop%20Morozaki%2C%20Kanie-cho%2C%20Aichi%2C%20Japan%2C%20August%2026%2C%202023.jpg?width=800"
+    },
+    {
+      "id": "cafe-sawara",
+      "nameJa": "佐原の町家カフェ",
+      "category": "cafe",
+      "area": "佐原・香取",
+      "timeSlots": [
+        "snack"
+      ],
+      "durationMinutes": 45,
+      "openLabel": "10:00",
+      "closeLabel": "18:00",
+      "priceRange": 2,
+      "tags": [
+        "cafe",
+        "art"
+      ],
+      "ageMin": 10,
+      "ageMax": 80,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "古い建物を使ったカフェ。静かに過ごせる。",
+      "reasonHintJa": "町並みと一緒に休憩できる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wagashi.jpg?width=800"
+    },
+    {
+      "id": "cafe-ikspiari",
+      "nameJa": "イクスピアリのカフェ",
+      "category": "cafe",
+      "area": "舞浜・浦安",
+      "timeSlots": [
+        "snack"
+      ],
+      "durationMinutes": 40,
+      "openLabel": "10:00",
+      "closeLabel": "21:00",
+      "priceRange": 2,
+      "tags": [
+        "cafe",
+        "foodie"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed",
+        "luxury"
+      ],
+      "descriptionJa": "商業施設内のカフェ。買い物の合間に休める。",
+      "reasonHintJa": "甘いものと飲み物で一息つける",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3F%20Gracious%20Square.jpg?width=800"
+    },
+    {
+      "id": "narita-morning-market",
+      "nameJa": "成田の朝の商店エリア",
+      "category": "market",
+      "area": "成田",
+      "timeSlots": [
+        "morning"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "6:00",
+      "closeLabel": "11:00",
+      "priceRange": 1,
+      "tags": [
+        "shopping",
+        "foodie"
+      ],
+      "ageMin": 12,
+      "ageMax": 70,
+      "lifestyle": [
+        "budget",
+        "active"
+      ],
+      "descriptionJa": "朝に店が開く門前エリア。食べ歩きのスタートに。",
+      "reasonHintJa": "地元の朝の活気を感じられる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Naritasan%20Omotesando%20-%20Apr%2012%2C%202015.jpg?width=800"
+    },
+    {
+      "id": "makuhari-night-food",
+      "nameJa": "幕張の夜のフードエリア",
+      "category": "market",
+      "area": "幕張・海浜",
+      "timeSlots": [
+        "evening"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "17:00",
+      "closeLabel": "22:00",
+      "priceRange": 2,
+      "tags": [
+        "nightlife",
+        "foodie"
+      ],
+      "ageMin": 18,
+      "ageMax": 70,
+      "lifestyle": [
+        "foodie",
+        "active"
+      ],
+      "descriptionJa": "夜に屋台や店が並ぶ一角。食べ歩き向き。",
+      "reasonHintJa": "夜の軽食をいろいろ試せる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yatai%20beside%20Naka-gawa%2C%20Fukuoka%2C%20Japan%20-%2020110525-01.jpg?width=800"
+    },
+    {
+      "id": "maihama-night-food",
+      "nameJa": "舞浜の夜の食べ歩き",
+      "category": "market",
+      "area": "舞浜・浦安",
+      "timeSlots": [
+        "evening"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "17:00",
+      "closeLabel": "22:00",
+      "priceRange": 2,
+      "tags": [
+        "nightlife",
+        "foodie"
+      ],
+      "ageMin": 12,
+      "ageMax": 80,
+      "lifestyle": [
+        "foodie",
+        "active"
+      ],
+      "descriptionJa": "イクスピアリ周辺で夜に店をはしごするコース。",
+      "reasonHintJa": "パークのあと軽く食べ歩きできる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yatai%20beside%20Naka-gawa%2C%20Fukuoka%2C%20Japan%20-%2020110525-03.jpg?width=800"
+    }
+  ]
+}
