@@ -21,6 +21,7 @@ export interface UiCopy {
   errorAge: string
   errorHobbies: string
   errorPlanFailed: string
+  errorPlanUnavailable: string
   errorInvalidInput: string
   retryInvalidPlan: string
   errorEmptyGemini: string
@@ -68,6 +69,8 @@ const JA: UiCopy = {
   errorAge: '年齢は1から120の整数で入力してください。',
   errorHobbies: '趣味を1つ以上選んでください。',
   errorPlanFailed: 'プランの作成に失敗しました。',
+  errorPlanUnavailable:
+    'プラン API に繋がっていません。表示中の開発サーバーの URL で開き直してください。',
   errorInvalidInput: '入力内容が正しくありません。',
   retryInvalidPlan:
     '前回の出力は無効でした（{error}）。候補の id だけを使い、件数は {min}〜{max}、時刻は昇順、各場所の営業時間内にしてください。',
@@ -162,6 +165,8 @@ const EN: UiCopy = {
   errorAge: 'Enter a whole number between 1 and 120 for age.',
   errorHobbies: 'Please choose at least one interest.',
   errorPlanFailed: 'We could not create a plan. Please try again.',
+  errorPlanUnavailable:
+    'The plan API is not available. Open the URL shown by the running dev server.',
   errorInvalidInput: 'Some of the details look incomplete.',
   retryInvalidPlan:
     'The previous output was invalid ({error}). Use candidate ids only, {min}–{max} stops, times in ascending order and within each place’s opening hours.',
@@ -257,6 +262,8 @@ const VI: UiCopy = {
   errorAge: 'Tuổi phải là số nguyên từ 1 đến 120.',
   errorHobbies: 'Vui lòng chọn ít nhất một sở thích.',
   errorPlanFailed: 'Không lập được kế hoạch. Vui lòng thử lại.',
+  errorPlanUnavailable:
+    'Không kết nối được API lập kế hoạch. Hãy mở đúng URL của máy chủ đang chạy.',
   errorInvalidInput: 'Thông tin nhập chưa hợp lệ.',
   retryInvalidPlan:
     'Kết quả trước không hợp lệ ({error}). Chỉ dùng id trong danh sách, {min}–{max} điểm, giờ tăng dần và trong giờ mở cửa của từng nơi.',

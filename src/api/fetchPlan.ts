@@ -24,13 +24,25 @@ export async function fetchDayPlan(
     body: JSON.stringify({ traveler, regenerate, locale }),
   })
 
-  const payload: unknown = await response.json()
+  const raw = await response.text()
+  const uiCopy = getUi(locale)
+
+  if (raw.trim() === '') {
+    throw new Error(uiCopy.errorPlanUnavailable)
+  }
+
+  let payload: unknown
+  try {
+    payload = JSON.parse(raw) as unknown
+  } catch {
+    throw new Error(uiCopy.errorPlanFailed)
+  }
 
   if (!response.ok) {
     const message =
       isPlanErrorPayload(payload) && typeof payload.error === 'string'
         ? payload.error
-        : getUi(locale).errorPlanFailed
+        : uiCopy.errorPlanFailed
     throw new Error(message)
   }
 
