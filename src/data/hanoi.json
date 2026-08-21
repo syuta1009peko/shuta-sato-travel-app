@@ -1,0 +1,1070 @@
+{
+  "cityId": "hanoi",
+  "cityNameJa": "ハノイ",
+  "citySummaryJa": "歴史ある旧市街とフォー・カフェが中心の街",
+  "places": [
+    {
+      "id": "hoan-kiem-lake",
+      "nameJa": "ホアンキエム湖",
+      "category": "attraction",
+      "area": "旧市街",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "nature",
+        "photo"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "ハノイの中心にある湖。朝の散歩や写真撮影に向く。",
+      "reasonHintJa": "街の中心で自然と写真を楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoan_Kiem_Lake.jpg?width=800"
+    },
+    {
+      "id": "ngoc-son-temple",
+      "nameJa": "玉山祠",
+      "category": "attraction",
+      "area": "旧市街",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 45,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "history",
+        "walking"
+      ],
+      "ageMin": 50,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed",
+        "budget"
+      ],
+      "descriptionJa": "ホアンキエム湖の小島にある歴史的な祠。ゆったり見学できる。",
+      "reasonHintJa": "落ち着いて歴史に触れられる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ngoc_Son_Temple.jpg?width=800"
+    },
+    {
+      "id": "old-quarter-walk",
+      "nameJa": "旧市街36通り散策",
+      "category": "attraction",
+      "area": "旧市街",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 90,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "walking",
+        "photo"
+      ],
+      "ageMin": 12,
+      "ageMax": 70,
+      "lifestyle": [
+        "active"
+      ],
+      "descriptionJa": "職人が集まった通りを歩いて、街の空気を味わうコース。",
+      "reasonHintJa": "歩いて街の雰囲気をつかめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Quarter%2C%20Hanoi%20-%20panoramio.jpg?width=800"
+    },
+    {
+      "id": "old-quarter-night",
+      "nameJa": "旧市街ナイトウォーク",
+      "category": "attraction",
+      "area": "旧市街",
+      "timeSlots": [
+        "evening"
+      ],
+      "durationMinutes": 75,
+      "openLabel": "18:00",
+      "closeLabel": "22:00",
+      "priceRange": 2,
+      "tags": [
+        "nightlife",
+        "photo"
+      ],
+      "ageMin": 18,
+      "ageMax": 70,
+      "lifestyle": [
+        "active",
+        "foodie"
+      ],
+      "descriptionJa": "夜の旧市街を歩き、屋台と明かりの景色を楽しむ。",
+      "reasonHintJa": "夜の街歩きが好きな人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanoi%20at%20night%20near%20Hoan%20Kiem%20lake..JPG?width=800"
+    },
+    {
+      "id": "hang-ga-street",
+      "nameJa": "ハンガー工芸通り",
+      "category": "attraction",
+      "area": "旧市街",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "shopping",
+        "art"
+      ],
+      "ageMin": 0,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget"
+      ],
+      "descriptionJa": "民芸品や小物が並ぶ通り。お土産探しに便利。",
+      "reasonHintJa": "手頃な工芸品を探せる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A0ng%20Gai%2C%20Ho%C3%A0n%20Ki%E1%BA%BFm%2C%20H%C3%A0%20N%E1%BB%99i%2C%20Vietnam%20-%20panoramio.jpg?width=800"
+    },
+    {
+      "id": "hanoi-opera",
+      "nameJa": "ハノイ歌劇場",
+      "category": "attraction",
+      "area": "旧市街",
+      "timeSlots": [
+        "afternoon",
+        "evening"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "10:00",
+      "closeLabel": "21:00",
+      "priceRange": 3,
+      "tags": [
+        "art",
+        "photo"
+      ],
+      "ageMin": 12,
+      "ageMax": 80,
+      "lifestyle": [
+        "luxury"
+      ],
+      "descriptionJa": "フランス風の美しい劇場。外観の写真も人気。",
+      "reasonHintJa": "建築とアートをゆっくり見られる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanoi%20Opera%20House.JPG?width=800"
+    },
+    {
+      "id": "west-lake",
+      "nameJa": "西湖（タイホー）",
+      "category": "attraction",
+      "area": "西湖",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 80,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "nature",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "ハノイ最大の湖。周遊路を歩いて風を感じられる。",
+      "reasonHintJa": "広い湖で気分転換できる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/West_Lake_Hanoi.jpg?width=800"
+    },
+    {
+      "id": "tran-quoc-pagoda",
+      "nameJa": "鎮国寺",
+      "category": "attraction",
+      "area": "西湖",
+      "timeSlots": [
+        "morning"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "8:00",
+      "closeLabel": "12:00",
+      "priceRange": 1,
+      "tags": [
+        "history",
+        "nature"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed",
+        "budget"
+      ],
+      "descriptionJa": "西湖に面した古い寺院。朝の見学がおすすめ。",
+      "reasonHintJa": "湖と歴史を一度に味わえる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tran_Quoc_Pagoda.jpg?width=800"
+    },
+    {
+      "id": "west-lake-cycle",
+      "nameJa": "西湖サイクリング",
+      "category": "attraction",
+      "area": "西湖",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 90,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "walking",
+        "nature"
+      ],
+      "ageMin": 12,
+      "ageMax": 60,
+      "lifestyle": [
+        "active"
+      ],
+      "descriptionJa": "湖のまわりを自転車で巡るアクティブなコース。",
+      "reasonHintJa": "体を動かしながら景色を楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cycling%20around%20West%20Lake%2C%20T%C3%A2y%20H%E1%BB%93%20District%2C%20Hanoi%20%286914729944%29.jpg?width=800"
+    },
+    {
+      "id": "west-lake-sunset",
+      "nameJa": "西湖の夕景スポット",
+      "category": "attraction",
+      "area": "西湖",
+      "timeSlots": [
+        "afternoon",
+        "evening"
+      ],
+      "durationMinutes": 45,
+      "openLabel": "10:00",
+      "closeLabel": "21:00",
+      "priceRange": 3,
+      "tags": [
+        "photo",
+        "nature"
+      ],
+      "ageMin": 16,
+      "ageMax": 80,
+      "lifestyle": [
+        "relaxed",
+        "luxury"
+      ],
+      "descriptionJa": "夕方から夜にかけて湖面が染まる撮影ポイント。",
+      "reasonHintJa": "夕景の写真を撮りたい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanoi.hotay01.jpg?width=800"
+    },
+    {
+      "id": "quang-ba-flowers",
+      "nameJa": "クアンバ花市場エリア",
+      "category": "attraction",
+      "area": "西湖",
+      "timeSlots": [
+        "morning"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "8:00",
+      "closeLabel": "12:00",
+      "priceRange": 3,
+      "tags": [
+        "shopping",
+        "photo"
+      ],
+      "ageMin": 0,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget",
+        "foodie"
+      ],
+      "descriptionJa": "朝に花と地元の店が並ぶエリア。色鮮やかな写真が撮れる。",
+      "reasonHintJa": "朝の市場らしい風景を楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flower%20market%20-%20Hanoi%2C%20Vietnam%20-%20DSC03681.JPG?width=800"
+    },
+    {
+      "id": "tay-ho-gallery",
+      "nameJa": "西湖アートギャラリー",
+      "category": "attraction",
+      "area": "西湖",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 3,
+      "tags": [
+        "art",
+        "photo"
+      ],
+      "ageMin": 12,
+      "ageMax": 80,
+      "lifestyle": [
+        "luxury"
+      ],
+      "descriptionJa": "現代アートを扱うギャラリーが集まる静かな一角。",
+      "reasonHintJa": "落ち着いて作品を見られる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Paintings%20in%20Vietnam%20National%20Museum%20of%20Fine%20Arts.jpg?width=800"
+    },
+    {
+      "id": "ho-chi-minh-mausoleum",
+      "nameJa": "ホーチミン廟",
+      "category": "attraction",
+      "area": "バーディン",
+      "timeSlots": [
+        "morning"
+      ],
+      "durationMinutes": 75,
+      "openLabel": "8:00",
+      "closeLabel": "11:00",
+      "priceRange": 1,
+      "tags": [
+        "history",
+        "walking"
+      ],
+      "ageMin": 10,
+      "ageMax": 80,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "ベトナム近代史を象徴する廟。午前の見学が基本。",
+      "reasonHintJa": "国の歴史を知る定番スポット",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ho_Chi_Minh_Mausoleum.jpg?width=800"
+    },
+    {
+      "id": "one-pillar-pagoda",
+      "nameJa": "一本柱の寺",
+      "category": "attraction",
+      "area": "バーディン",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 30,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "photo",
+        "history"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "budget"
+      ],
+      "descriptionJa": "一本の柱の上に建つ小さな寺。コンパクトに見学できる。",
+      "reasonHintJa": "短い時間で印象的な写真が撮れる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/One_Pillar_Pagoda.jpg?width=800"
+    },
+    {
+      "id": "lenin-park",
+      "nameJa": "レーニン公園",
+      "category": "attraction",
+      "area": "バーディン",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "nature",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 12,
+      "lifestyle": [
+        "relaxed",
+        "active"
+      ],
+      "descriptionJa": "緑が多く、子どもと遊びやすい公園。",
+      "reasonHintJa": "家族で気軽に過ごせる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lenin%20Park%20Hanoi.JPG?width=800"
+    },
+    {
+      "id": "botanical-garden",
+      "nameJa": "ハノイ植物園",
+      "category": "attraction",
+      "area": "バーディン",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "nature",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "大きな木が残る緑地。暑い日の休憩にも向く。",
+      "reasonHintJa": "街中で自然に触れられる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/General%20view%20-%20Hanoi%20Botanical%20Garden%20-%20Hanoi%2C%20Vietnam%20-%20DSC03557.JPG?width=800"
+    },
+    {
+      "id": "ba-dinh-night",
+      "nameJa": "バーディン広場の夜",
+      "category": "attraction",
+      "area": "バーディン",
+      "timeSlots": [
+        "evening"
+      ],
+      "durationMinutes": 40,
+      "openLabel": "18:00",
+      "closeLabel": "22:00",
+      "priceRange": 3,
+      "tags": [
+        "nightlife",
+        "photo"
+      ],
+      "ageMin": 16,
+      "ageMax": 80,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "ライトアップされた広場を歩く、静かな夜のコース。",
+      "reasonHintJa": "にぎやかすぎない夜の景色が楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Qu%E1%BA%A3ng%20tr%C6%B0%E1%BB%9Dng%20Ba%20%C4%90%C3%ACnh%20v%E1%BB%81%20%C4%91%C3%AAm.JPG?width=800"
+    },
+    {
+      "id": "thang-long-citadel",
+      "nameJa": "タンロン皇城",
+      "category": "attraction",
+      "area": "バーディン",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 90,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "history",
+        "walking"
+      ],
+      "ageMin": 12,
+      "ageMax": 80,
+      "lifestyle": [
+        "active"
+      ],
+      "descriptionJa": "千年の都の遺跡。広さを歩いて歴史をたどる。",
+      "reasonHintJa": "本格的に歴史を見て回れる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Central%20Sector%20of%20the%20Imperial%20Citadel%20of%20Thang%20Long%20-%20Hanoi.jpg?width=800"
+    },
+    {
+      "id": "st-joseph-cathedral",
+      "nameJa": "聖ヨセフ大聖堂",
+      "category": "attraction",
+      "area": "フレンチクォーター",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 40,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "photo",
+        "art"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed",
+        "budget"
+      ],
+      "descriptionJa": "旧市街近くの教会。石造りの外観が写真映えする。",
+      "reasonHintJa": "ヨーロッパ風の建物を撮れる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Joseph%20Cathedral%20Hanoi.jpg?width=800"
+    },
+    {
+      "id": "fine-arts-museum",
+      "nameJa": "ベトナム美術博物館",
+      "category": "attraction",
+      "area": "フレンチクォーター",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 90,
+      "openLabel": "8:30",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "art",
+        "history"
+      ],
+      "ageMin": 10,
+      "ageMax": 80,
+      "lifestyle": [
+        "relaxed",
+        "luxury"
+      ],
+      "descriptionJa": "伝統から現代までの美術作品を収蔵する博物館。",
+      "reasonHintJa": "じっくりアートを見たい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bao%20tang%20my%20thuat.jpg?width=800"
+    },
+    {
+      "id": "french-quarter-walk",
+      "nameJa": "フレンチクォーター散策",
+      "category": "attraction",
+      "area": "フレンチクォーター",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 3,
+      "tags": [
+        "walking",
+        "photo"
+      ],
+      "ageMin": 12,
+      "ageMax": 75,
+      "lifestyle": [
+        "active"
+      ],
+      "descriptionJa": "並木と洋館が続く通りを歩くコース。",
+      "reasonHintJa": "街並みを歩きながら写真を撮れる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanoi%20scene%20in%20the%20French%20Quarter%20%2826719307779%29.jpg?width=800"
+    },
+    {
+      "id": "vincom-ba-trieu",
+      "nameJa": "ビンコム・バートリエウ",
+      "category": "attraction",
+      "area": "フレンチクォーター",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 80,
+      "openLabel": "10:00",
+      "closeLabel": "22:00",
+      "priceRange": 3,
+      "tags": [
+        "shopping",
+        "photo"
+      ],
+      "ageMin": 0,
+      "ageMax": 80,
+      "lifestyle": [
+        "luxury"
+      ],
+      "descriptionJa": "大型モールで買い物と休憩ができる。",
+      "reasonHintJa": "空調の効いた店でゆっくり買い物できる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincom%20Mega%20Mall%20Times%20City.jpg?width=800"
+    },
+    {
+      "id": "le-thai-to-night",
+      "nameJa": "レタイトー通りの夜",
+      "category": "attraction",
+      "area": "フレンチクォーター",
+      "timeSlots": [
+        "evening"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "18:00",
+      "closeLabel": "22:00",
+      "priceRange": 2,
+      "tags": [
+        "nightlife",
+        "shopping"
+      ],
+      "ageMin": 18,
+      "ageMax": 70,
+      "lifestyle": [
+        "active",
+        "luxury"
+      ],
+      "descriptionJa": "夜の並木通り。店とライトが並ぶ散歩道。",
+      "reasonHintJa": "夜の街を少しおしゃれに楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Night%20in%20Hanoi%2C%20over%20Hoan%20Kiem%20Lake%20(2005).jpg?width=800"
+    },
+    {
+      "id": "vietnam-history-museum",
+      "nameJa": "ベトナム歴史博物館",
+      "category": "attraction",
+      "area": "フレンチクォーター",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 90,
+      "openLabel": "8:00",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "history",
+        "art"
+      ],
+      "ageMin": 10,
+      "ageMax": 80,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "古代から近現代までの展示がある大きな博物館。",
+      "reasonHintJa": "歴史を体系的に学べる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vietnam%20History%20Museum%20(9753010602).jpg?width=800"
+    },
+    {
+      "id": "long-bien-bridge",
+      "nameJa": "ロンビエン橋",
+      "category": "attraction",
+      "area": "ロンビエン",
+      "timeSlots": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "10:00",
+      "closeLabel": "21:00",
+      "priceRange": 3,
+      "tags": [
+        "photo",
+        "walking"
+      ],
+      "ageMin": 12,
+      "ageMax": 70,
+      "lifestyle": [
+        "active",
+        "budget"
+      ],
+      "descriptionJa": "紅河にかかる古い鉄橋。歩いて渡ると眺めがよい。",
+      "reasonHintJa": "橋からの景色を写真に残せる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HanoiLongBienBridge.jpg?width=800"
+    },
+    {
+      "id": "gia-lam-crafts",
+      "nameJa": "ザーラム工芸エリア",
+      "category": "attraction",
+      "area": "ロンビエン",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 80,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 2,
+      "tags": [
+        "art",
+        "shopping"
+      ],
+      "ageMin": 10,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget"
+      ],
+      "descriptionJa": "工芸品を見る・買うことができるエリア。",
+      "reasonHintJa": "作り手の作品に触れられる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%C4%90%C6%B0%E1%BB%9Dng%20ph%E1%BB%91%20x%C3%A3%20B%C3%A1t%20Tr%C3%A0ng%2C%20Gia%20L%C3%A2m%2C%20H%C3%A0%20N%E1%BB%99i.jpg?width=800"
+    },
+    {
+      "id": "long-bien-night",
+      "nameJa": "ロンビエンの夜の通り",
+      "category": "attraction",
+      "area": "ロンビエン",
+      "timeSlots": [
+        "evening"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "18:00",
+      "closeLabel": "22:00",
+      "priceRange": 2,
+      "tags": [
+        "nightlife",
+        "shopping"
+      ],
+      "ageMin": 16,
+      "ageMax": 70,
+      "lifestyle": [
+        "foodie",
+        "active"
+      ],
+      "descriptionJa": "夜に店が開く通り。地元の人の流れを感じられる。",
+      "reasonHintJa": "観光地化されすぎていない夜を楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Long%20Bien%20Bridge%20night.jpg?width=800"
+    },
+    {
+      "id": "red-river-park",
+      "nameJa": "紅河緑地",
+      "category": "attraction",
+      "area": "ロンビエン",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 60,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 3,
+      "tags": [
+        "nature",
+        "walking"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed",
+        "active"
+      ],
+      "descriptionJa": "川沿いの開けた場所。風と景色で気分転換できる。",
+      "reasonHintJa": "広い空の下で歩ける",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vietnam%2C%20Hanoi%2C%20Panoramic%20view%20of%20Red%20River.jpg?width=800"
+    },
+    {
+      "id": "bat-trang-village",
+      "nameJa": "バットチャン焼物の村",
+      "category": "attraction",
+      "area": "ロンビエン",
+      "timeSlots": [
+        "afternoon"
+      ],
+      "durationMinutes": 120,
+      "openLabel": "10:00",
+      "closeLabel": "17:00",
+      "priceRange": 3,
+      "tags": [
+        "shopping",
+        "art"
+      ],
+      "ageMin": 8,
+      "ageMax": 80,
+      "lifestyle": [
+        "luxury",
+        "budget"
+      ],
+      "descriptionJa": "陶器の工房が集まる村。買い物と見学ができる。",
+      "reasonHintJa": "本格的なお土産を選びたい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bat-Trang-Ceramic-Village7.jpg?width=800"
+    },
+    {
+      "id": "long-bien-station",
+      "nameJa": "ロンビエン駅の歴史建築",
+      "category": "attraction",
+      "area": "ロンビエン",
+      "timeSlots": [
+        "morning",
+        "afternoon"
+      ],
+      "durationMinutes": 40,
+      "openLabel": "9:00",
+      "closeLabel": "17:00",
+      "priceRange": 1,
+      "tags": [
+        "walking",
+        "history"
+      ],
+      "ageMin": 12,
+      "ageMax": 80,
+      "lifestyle": [
+        "budget"
+      ],
+      "descriptionJa": "古い駅舎を外から見て歩く短いコース。",
+      "reasonHintJa": "日常の風景の中に歴史を見つけられる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Long%20Bien%20station%202020.jpg?width=800"
+    },
+    {
+      "id": "pho-thin",
+      "nameJa": "フォー・ティン",
+      "category": "restaurant",
+      "area": "旧市街",
+      "timeSlots": [
+        "lunch"
+      ],
+      "durationMinutes": 45,
+      "openLabel": "11:00",
+      "closeLabel": "15:00",
+      "priceRange": 1,
+      "tags": [
+        "foodie"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "budget",
+        "foodie"
+      ],
+      "descriptionJa": "香ばしい牛肉のフォーで知られる老舗。",
+      "reasonHintJa": "ハノイの定番フォーを手頃に食べられる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pho%20bo.jpg?width=800"
+    },
+    {
+      "id": "bun-cha-huong-lien",
+      "nameJa": "ブンチャー・フオンリエン",
+      "category": "restaurant",
+      "area": "旧市街",
+      "timeSlots": [
+        "lunch",
+        "dinner"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "11:00",
+      "closeLabel": "21:00",
+      "priceRange": 2,
+      "tags": [
+        "foodie"
+      ],
+      "ageMin": 8,
+      "ageMax": 80,
+      "lifestyle": [
+        "foodie",
+        "budget"
+      ],
+      "descriptionJa": "炭火の豚肉と麺のセット。ハノイらしい昼・夜の食事。",
+      "reasonHintJa": "地元の味をしっかり楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bun%20cha.jpg?width=800"
+    },
+    {
+      "id": "la-verticale",
+      "nameJa": "ラ・ヴェルティカル",
+      "category": "restaurant",
+      "area": "フレンチクォーター",
+      "timeSlots": [
+        "dinner"
+      ],
+      "durationMinutes": 90,
+      "openLabel": "18:00",
+      "closeLabel": "22:00",
+      "priceRange": 3,
+      "tags": [
+        "foodie",
+        "art"
+      ],
+      "ageMin": 18,
+      "ageMax": 80,
+      "lifestyle": [
+        "luxury",
+        "foodie"
+      ],
+      "descriptionJa": "ベトナム食材を使った少し贅沢なディナー。",
+      "reasonHintJa": "特別感のある夕食に向く",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ch%E1%BA%A3%20c%C3%A1.jpg?width=800"
+    },
+    {
+      "id": "tay-ho-seafood",
+      "nameJa": "西湖の海鮮レストラン",
+      "category": "restaurant",
+      "area": "西湖",
+      "timeSlots": [
+        "dinner"
+      ],
+      "durationMinutes": 80,
+      "openLabel": "17:00",
+      "closeLabel": "21:00",
+      "priceRange": 3,
+      "tags": [
+        "foodie"
+      ],
+      "ageMin": 12,
+      "ageMax": 80,
+      "lifestyle": [
+        "luxury",
+        "foodie"
+      ],
+      "descriptionJa": "湖の近くで海鮮を食べる店。夜の食事向け。",
+      "reasonHintJa": "景色と一緒に食事を楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grilled%20snakeheads.jpg?width=800"
+    },
+    {
+      "id": "chay-ba-dinh",
+      "nameJa": "バーディンの精進料理",
+      "category": "restaurant",
+      "area": "バーディン",
+      "timeSlots": [
+        "lunch"
+      ],
+      "durationMinutes": 50,
+      "openLabel": "11:00",
+      "closeLabel": "15:00",
+      "priceRange": 2,
+      "tags": [
+        "foodie"
+      ],
+      "ageMin": 0,
+      "ageMax": 99,
+      "lifestyle": [
+        "relaxed",
+        "budget"
+      ],
+      "descriptionJa": "野菜中心のやさしい味。昼にゆったり食べられる。",
+      "reasonHintJa": "胃に優しい食事をとりたい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Saigon%20Vegetarian%20food.jpg?width=800"
+    },
+    {
+      "id": "bun-dau-long-bien",
+      "nameJa": "ブンドウマムトム（ロンビエン）",
+      "category": "restaurant",
+      "area": "ロンビエン",
+      "timeSlots": [
+        "lunch",
+        "dinner"
+      ],
+      "durationMinutes": 55,
+      "openLabel": "11:00",
+      "closeLabel": "21:00",
+      "priceRange": 1,
+      "tags": [
+        "foodie"
+      ],
+      "ageMin": 12,
+      "ageMax": 70,
+      "lifestyle": [
+        "foodie",
+        "active"
+      ],
+      "descriptionJa": "豆腐と麺をシェアして食べる地元の味。",
+      "reasonHintJa": "食べ歩き気分で地元飯を試せる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/B%C3%BAn%20%C4%91%E1%BA%ADu%20m%E1%BA%AFm%20t%C3%B4m.jpg?width=800"
+    },
+    {
+      "id": "egg-coffee-giang",
+      "nameJa": "カフェザン（エッグコーヒー）",
+      "category": "cafe",
+      "area": "旧市街",
+      "timeSlots": [
+        "snack"
+      ],
+      "durationMinutes": 40,
+      "openLabel": "10:00",
+      "closeLabel": "18:00",
+      "priceRange": 1,
+      "tags": [
+        "cafe",
+        "photo"
+      ],
+      "ageMin": 8,
+      "ageMax": 80,
+      "lifestyle": [
+        "relaxed",
+        "budget"
+      ],
+      "descriptionJa": "ハノイ名物の卵コーヒー。午後の休憩にぴったり。",
+      "reasonHintJa": "名物ドリンクを写真と一緒に楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/C%C3%A0%20ph%C3%AA%20tr%E1%BB%A9ng.jpg?width=800"
+    },
+    {
+      "id": "cong-caphe",
+      "nameJa": "コング・カフェ",
+      "category": "cafe",
+      "area": "バーディン",
+      "timeSlots": [
+        "snack"
+      ],
+      "durationMinutes": 40,
+      "openLabel": "10:00",
+      "closeLabel": "18:00",
+      "priceRange": 2,
+      "tags": [
+        "cafe",
+        "art"
+      ],
+      "ageMin": 12,
+      "ageMax": 70,
+      "lifestyle": [
+        "relaxed"
+      ],
+      "descriptionJa": "レトロな内装のカフェチェーン。ココナッツコーヒーが有名。",
+      "reasonHintJa": "雰囲気のよい店で休憩できる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vietnamese%20coffee.jpg?width=800"
+    },
+    {
+      "id": "loading-t",
+      "nameJa": "ローディングT",
+      "category": "cafe",
+      "area": "フレンチクォーター",
+      "timeSlots": [
+        "snack"
+      ],
+      "durationMinutes": 45,
+      "openLabel": "10:00",
+      "closeLabel": "18:00",
+      "priceRange": 2,
+      "tags": [
+        "cafe",
+        "photo"
+      ],
+      "ageMin": 16,
+      "ageMax": 70,
+      "lifestyle": [
+        "luxury",
+        "relaxed"
+      ],
+      "descriptionJa": "本に囲まれた隠れ家カフェ。静かに過ごせる。",
+      "reasonHintJa": "おしゃれな空間で休みたい人向け",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cafe%20-%20Hanoi%20Botanical%20Garden%20-%20Hanoi%2C%20Vietnam%20-%20DSC03619.JPG?width=800"
+    },
+    {
+      "id": "dong-xuan-market",
+      "nameJa": "ドンスアン市場",
+      "category": "market",
+      "area": "旧市街",
+      "timeSlots": [
+        "morning"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "6:00",
+      "closeLabel": "11:00",
+      "priceRange": 1,
+      "tags": [
+        "shopping",
+        "foodie"
+      ],
+      "ageMin": 12,
+      "ageMax": 70,
+      "lifestyle": [
+        "budget",
+        "active"
+      ],
+      "descriptionJa": "大きな卸売市場。朝の活気を体感できる。",
+      "reasonHintJa": "地元の朝のエネルギーを感じられる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dong%20Xuan%20Market%20(22776312697).jpg?width=800"
+    },
+    {
+      "id": "long-bien-night-market",
+      "nameJa": "ロンビエン夜市",
+      "category": "market",
+      "area": "ロンビエン",
+      "timeSlots": [
+        "evening"
+      ],
+      "durationMinutes": 70,
+      "openLabel": "17:00",
+      "closeLabel": "22:00",
+      "priceRange": 1,
+      "tags": [
+        "nightlife",
+        "foodie"
+      ],
+      "ageMin": 16,
+      "ageMax": 70,
+      "lifestyle": [
+        "foodie",
+        "budget"
+      ],
+      "descriptionJa": "夜に屋台が並ぶ市場。食べ歩き向き。",
+      "reasonHintJa": "夜の屋台グルメを楽しめる",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lascar%20Traditional%20street%20market%20and%20Dong%20Xuan%20Market%20by%20night%20(4550974092).jpg?width=800"
+    }
+  ]
+}
