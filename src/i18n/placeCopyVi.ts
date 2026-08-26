@@ -137,7 +137,7 @@ export const PLACE_COPY_VI: Record<string, PlaceCopy> = {
     reasonHint: 'Đêm không quá thiên về khách du lịch.',
   },
   'red-river-park': {
-    name: 'Không gian xanh sông Hồng',
+    name: 'Sông Hồng',
     description: 'Bãi rộng ven sông. Có gió và tầm nhìn thoáng.',
     reasonHint: 'Đi bộ dưới bầu trời rộng.',
   },
@@ -160,11 +160,6 @@ export const PLACE_COPY_VI: Record<string, PlaceCopy> = {
     name: 'Bún chả Hương Liên',
     description: 'Thịt nướng than và bún. Bữa trưa hoặc tối rất Hà Nội.',
     reasonHint: 'Nếm trọn vị địa phương.',
-  },
-  'la-verticale': {
-    name: 'La Verticale',
-    description: 'Bữa tối dùng nguyên liệu Việt, hơi sang trọng.',
-    reasonHint: 'Cho bữa tối muốn có chút đặc biệt.',
   },
   'tay-ho-seafood': {
     name: 'Hải sản Hồ Tây',
@@ -346,11 +341,6 @@ export const PLACE_COPY_VI: Record<string, PlaceCopy> = {
     description: 'Ngắm phố và nước từ thuyền. Nhiều cảnh đẹp để chụp.',
     reasonHint: 'Xem sông nước một cách thong thả.',
   },
-  'onogawa': {
-    name: 'Đi bộ ven sông Ono',
-    description: 'Thuyền và nhà kho dọc sông. Đường bằng, dễ đi.',
-    reasonHint: 'Dạo bộ và chụp ảnh không mệt.',
-  },
   'sawara-lantern': {
     name: 'Phố đèn lồng Sawara',
     description: 'Đi phố nhà kho ban đêm. Yên và chậm.',
@@ -460,5 +450,750 @@ export const PLACE_COPY_VI: Record<string, PlaceCopy> = {
     name: 'Ăn dạo đêm Maihama',
     description: 'Đi lần lượt các quán quanh Ikspiari lúc tối.',
     reasonHint: 'Ăn nhẹ sau công viên.',
+  },
+  'temple-of-literature': {
+    name: "Văn Miếu - Quốc Tử Giám",
+    description: "Trường đại học đầu tiên, nổi tiếng bia tiến sĩ và Khuê Văn Các.",
+    reasonHint: "Đi bộ yên trong lịch sử học hành.",
+  },
+  'hoa-lo-prison': {
+    name: "Nhà tù Hỏa Lò",
+    description: "Bảo tàng trong nhà tù thời Pháp, lịch sử cận hiện đại rõ.",
+    reasonHint: "Hiểu sâu lịch sử thủ đô.",
+  },
+  'flag-tower-hanoi': {
+    name: "Cột cờ Hà Nội",
+    description: "Cột cờ biểu tượng Hoàng thành, trong khu bảo tàng quân sự.",
+    reasonHint: "Mốc của phố sát mắt.",
+  },
+  'hanoi-station': {
+    name: "Ga Hà Nội",
+    description: "Ga Hàng Cỏ xưa, còn mặt đứng thời Pháp.",
+    reasonHint: "Chụp cửa ngõ đường sắt.",
+  },
+  'my-dinh-stadium': {
+    name: "Sân vận động Mỹ Đình",
+    description: "Sân quốc gia; ngày không sự kiện vẫn xem bên ngoài.",
+    reasonHint: "Cảm quy mô Hà Nội hiện đại.",
+  },
+  'vietnam-soviet-palace': {
+    name: "Cung Văn hóa Hữu nghị Việt–Xô",
+    description: "Cung văn hóa trên nền đấu xảo cũ. Đêm đẹp.",
+    reasonHint: "Xem kiến trúc công trình lớn.",
+  },
+  'quan-thanh-temple': {
+    name: "Đền Quán Thánh",
+    description: "Đền trấn gần Hồ Tây, nổi tiếng tượng đồng.",
+    reasonHint: "Viếng đền yên bên hồ.",
+  },
+  'hang-dau-water-tower': {
+    name: "Tháp nước Hàng Đậu",
+    description: "Tháp nước thời Pháp, mốc ngã sáu.",
+    reasonHint: "Ghé ngắn một góc phố cổ.",
+  },
+  'ham-long-church': {
+    name: "Nhà thờ Hàm Long",
+    description: "Nhà thờ tháp chuông nổi, yên hơn Nhà thờ Lớn.",
+    reasonHint: "Chụp kiến trúc thong thả.",
+  },
+  'ceramic-mosaic-road': {
+    name: "Con đường gốm sứ",
+    description: "Tranh gốm dài trên đê sông Hồng, kỷ lục Guinness.",
+    reasonHint: "Xem màu và họa tiết khi đi bộ.",
+  },
+  'dinh-le-book-street': {
+    name: "Phố sách Đinh Lễ",
+    description: "Phố sách cạnh Hồ Gươm, nhiều sách cũ.",
+    reasonHint: "Tìm sách yên gần hồ.",
+  },
+  'west-lake-water-park': {
+    name: "Công viên nước Hồ Tây",
+    description: "Công viên nước lớn của Hà Nội, hợp mùa hè.",
+    reasonHint: "Chơi lâu ngày nóng.",
+  },
+  'aeon-mall-long-bien': {
+    name: "AEON Mall Long Biên",
+    description: "Trung tâm lớn Long Biên, có khu chơi trong nhà.",
+    reasonHint: "Mua sắm và nghỉ không sợ trời.",
+  },
+  'lotte-mall-west-lake': {
+    name: "Lotte Mall West Lake",
+    description: "Trung tâm lớn mới gần Hồ Tây.",
+    reasonHint: "Mua sắm và ăn quanh Hồ Tây.",
+  },
+  'royal-city': {
+    name: "Royal City",
+    description: "Khu phức hợp dưới đất rộng, có vui chơi trong nhà.",
+    reasonHint: "Ở chỗ mát cả buổi.",
+  },
+  'keangnam-sky72': {
+    name: "Keangnam Sky 72",
+    description: "Đài cao và trò trong nhà, nhìn xuống phố.",
+    reasonHint: "Ngắm Hà Nội từ trên cao.",
+  },
+  'thu-le-park': {
+    name: "Công viên Thủ Lệ",
+    description: "Công viên lớn có sở thú, hợp trẻ.",
+    reasonHint: "Xem thú giữa cây xanh.",
+  },
+  'bao-son-paradise': {
+    name: "Thiên đường Bảo Sơn",
+    description: "Khu có thủy cung, vườn thú và trò chơi.",
+    reasonHint: "Chơi nửa ngày ở ngoại ô.",
+  },
+  'times-city-aquarium': {
+    name: "Thủy cung Times City",
+    description: "Thủy cung lớn trong Times City, mở cả tối.",
+    reasonHint: "Xem biển trong nhà.",
+  },
+  'vinke-times-city': {
+    name: "VinKE Times City",
+    description: "Khu chơi hướng nghiệp trong nhà cho trẻ.",
+    reasonHint: "Vừa chơi vừa thử nghề.",
+  },
+  'vietnam-nature-museum': {
+    name: "Bảo tàng Thiên nhiên Việt Nam",
+    description: "Xương và hóa thạch, dễ đi với trẻ.",
+    reasonHint: "Xem mẫu vật thiên nhiên kỹ.",
+  },
+  'ethnology-museum': {
+    name: "Bảo tàng Dân tộc học Việt Nam",
+    description: "Xem đời sống 54 dân tộc trong nhà và vườn.",
+    reasonHint: "Hiểu nhiều văn hóa một lúc.",
+  },
+  'ta-hien-beer-street': {
+    name: "Phố bia Tạ Hiện",
+    description: "Phố bia phố cổ, đông về đêm.",
+    reasonHint: "Đêm Hà Nội náo nhiệt.",
+  },
+  'thang-long-water-puppet': {
+    name: "Nhà hát Múa rối Thăng Long",
+    description: "Rối nước diễn quanh năm.",
+    reasonHint: "Xem nghệ thuật truyền thống gọn.",
+  },
+  'nhat-tan-bridge': {
+    name: "Cầu Nhật Tân",
+    description: "Cầu dây văng sông Hồng, đèn đêm đẹp.",
+    reasonHint: "Nhìn sông và phố từ cầu.",
+  },
+  'the-note-coffee': {
+    name: "The Note Coffee",
+    description: "Quán phủ giấy ghi chú, nổi tiếng cà phê trứng.",
+    reasonHint: "Nghỉ ở quán đẹp ảnh.",
+  },
+  'train-street-cafe': {
+    name: "Cafe đường tàu",
+    description: "Quán sát ray; khoảnh khắc tàu đi qua là điểm nhấn.",
+    reasonHint: "Cảnh đường tàu đúng Hà Nội.",
+  },
+  'hang-buom-food-street': {
+    name: "Phố ẩm thực Hàng Buồm",
+    description: "Phố quán vỉa hè, đông về đêm.",
+    reasonHint: "Ăn dạo nhiều món quãng ngắn.",
+  },
+  'tong-duy-tan-food': {
+    name: "Phố ẩm thực Tống Duy Tân",
+    description: "Phố hải sản và ăn đêm, giá dễ chịu.",
+    reasonHint: "Hợp ăn dạo tối.",
+  },
+  'trang-tien-ice-cream': {
+    name: "Kem Tràng Tiền",
+    description: "Tiệm kem lâu năm gần Hồ Gươm.",
+    reasonHint: "Ăn ngọt lúc đi dạo.",
+  },
+  'cha-ca-la-vong': {
+    name: "Chả cá Lã Vọng",
+    description: "Cá thì là nướng tại bàn, món danh tiếng Hà Nội.",
+    reasonHint: "Ngồi thưởng thức vị chỉ có ở đây.",
+  },
+  'pho-bat-dan': {
+    name: "Phở Bát Đàn",
+    description: "Quán phở bò phố cổ, sáng hay xếp hàng.",
+    reasonHint: "Phở chuẩn ở quán địa phương.",
+  },
+  'ho-chi-minh-museum': {
+    name: "Bảo tàng Hồ Chí Minh",
+    description: "Bảo tàng cạnh lăng, cuộc đời và thời đại.",
+    reasonHint: "Theo lịch sử hiện đại qua trưng bày.",
+  },
+  'presidential-palace': {
+    name: "Phủ Chủ tịch (bên ngoài)",
+    description: "Dinh thự thời Pháp; xem mặt ngoài từ vườn.",
+    reasonHint: "Xem công trình lịch sử gọn.",
+  },
+  'hang-quat-stamps': {
+    name: "Khắc dấu gỗ Hàng Quạt",
+    description: "Làm con dấu gỗ trên phố Hàng Quạt.",
+    reasonHint: "Tự làm đồ thủ công nhỏ.",
+  },
+  'westlake-mini-golf': {
+    name: "Mini golf Hồ Tây",
+    description: "Sân mini golf phía Long Biên, chơi nhẹ.",
+    reasonHint: "Vận động nhẹ đổi gió.",
+  },
+  'go-kart-aeon-hadong': {
+    name: "Go-kart AEON Hà Đông",
+    description: "Xe điện trong trung tâm Hà Đông.",
+    reasonHint: "Chơi không sợ trời.",
+  },
+  'duck-boat-truc-bach': {
+    name: "Đạp vịt Hồ Trúc Bạch",
+    description: "Thuyền vịt Hồ Trúc Bạch, chiều dễ chịu.",
+    reasonHint: "Nhìn phố từ mặt hồ.",
+  },
+  'thong-nhat-park': {
+    name: "Công viên Thống Nhất",
+    description: "Công viên lớn giữa phố, có đạp vịt.",
+    reasonHint: "Đi bộ cây xanh trong đô thị.",
+  },
+  'hoan-kiem-walking-street': {
+    name: "Phố đi bộ Hồ Gươm",
+    description: "Cuối tuần tối quanh hồ cấm xe.",
+    reasonHint: "Đi bộ hồ đêm ít xe.",
+  },
+  'hanoi-house-cafe': {
+    name: "Hanoi House Cafe",
+    description: "Quán trong nhà cũ, yên trong ngõ.",
+    reasonHint: "Uống thong thả phố cổ.",
+  },
+  'banh-tom-tay-ho': {
+    name: "Bánh tôm Hồ Tây",
+    description: "Bánh tôm quanh Hồ Tây, hợp lúc dạo hồ.",
+    reasonHint: "Đồ chiên địa phương nhân dịp hồ.",
+  },
+  'bun-cha-hang-manh': {
+    name: "Bún chả Hàng Mành",
+    description: "Quán bún chả phố cổ, mùi than rõ.",
+    reasonHint: "Bún và thịt nướng chuẩn.",
+  },
+  'bun-dau-hang-khay': {
+    name: "Bún đậu Hàng Khay",
+    description: "Đậu, bún và mắm tôm; thơm và chua.",
+    reasonHint: "Thử vị Hà Nội đúng kiểu.",
+  },
+  'phu-tay-ho-temple': {
+    name: "Phủ Tây Hồ",
+    description: "Phủ bên Hồ Tây, nhiều người địa phương lễ.",
+    reasonHint: "Hồ và nơi thờ cùng lúc.",
+  },
+  'quan-su-pagoda': {
+    name: "Chùa Quán Sứ",
+    description: "Chùa trung tâm giáo hội, yên giữa phố.",
+    reasonHint: "Lễ chùa tĩnh giữa đô thị.",
+  },
+  'women-museum': {
+    name: "Bảo tàng Phụ nữ Việt Nam",
+    description: "Trưng bày đời sống và lịch sử phụ nữ, dễ hiểu.",
+    reasonHint: "Biết một mặt khác của xã hội.",
+  },
+  'truc-bach-lake': {
+    name: "Hồ Trúc Bạch",
+    description: "Hồ nhỏ cạnh Hồ Tây, hợp đi dạo.",
+    reasonHint: "Đi vòng ngắn hơn Hồ Tây.",
+  },
+  'bun-oc-o-quan-chuong': {
+    name: "Bún ốc Ô Quan Chưởng",
+    description: "Bún ốc gần cửa đông, nước chua.",
+    reasonHint: "Thử bún khác phố cổ.",
+  },
+  'nem-nuong-au-trieu': {
+    name: "Nem nướng Ấu Triệu",
+    description: "Nem nướng gần Nhà thờ Lớn, hợp ăn tối dạo.",
+    reasonHint: "Ăn nhẹ sau nhà thờ.",
+  },
+  'tra-chanh-cathedral': {
+    name: "Trà chanh Nhà thờ",
+    description: "Đồ uống vỉa hè trước Nhà thờ Lớn, giới trẻ thích.",
+    reasonHint: "Nghỉ rẻ trước nhà thờ.",
+  },
+  'hero-club': {
+    name: "Hero Club",
+    description: "Club đêm, DJ và sàn rộng.",
+    reasonHint: "Nhạc đến khuya.",
+  },
+  'binh-minh-jazz': {
+    name: "Bình Minh Jazz Club",
+    description: "Club jazz nhỏ, có nhạc sống.",
+    reasonHint: "Nghe nhạc đêm yên.",
+  },
+  'bar-1900': {
+    name: "Bar 1900",
+    description: "Bar nổi phố cổ, đèn và nhạc mạnh.",
+    reasonHint: "Đêm náo nhiệt.",
+  },
+  'ay-cafe-lounge': {
+    name: "Ấy Café & Lounge",
+    description: "Quán lounge có nhạc sống đêm.",
+    reasonHint: "Đồ uống đêm có nhạc.",
+  },
+  'aeon-mall-ha-dong': {
+    name: "AEON Mall Hà Đông",
+    description: "Trung tâm lớn Hà Đông, có khu chơi trong nhà.",
+    reasonHint: "Mua sắm và nghỉ phía tây.",
+  },
+  'pho-cuon-tay-ho': {
+    name: "Phở cuốn Hồ Tây",
+    description: "Phở cuốn, món nhẹ ven hồ.",
+    reasonHint: "Bún nhẹ sau khi đi bộ.",
+  },
+  'cafemart-old-quarter': {
+    name: "Cafemart",
+    description: "Quán 24/24 trên siêu thị tiện lợi phố cổ.",
+    reasonHint: "Ngồi nghỉ cả giờ muộn.",
+  },
+  'mi-van-than-dinh-liet': {
+    name: "Mì vằn thắn Đinh Liệt",
+    description: "Mì hoành thánh phố Đinh Liệt, được nhắc trong cẩm nang.",
+    reasonHint: "Bữa trưa bằng một loại mì khác.",
+  },
+  'kamogawa-sea-world': {
+    name: "Kamogawa Sea World",
+    description: "Thủy cung nhìn ra Thái Bình Dương, nổi tiếng show cá voi sát thủ.",
+    reasonHint: "Xem sinh vật biển thật đã.",
+  },
+  'ryugujo-mikazuki': {
+    name: "Ryugujo Spa Hotel Mikazuki",
+    description: "Khu nghỉ dưỡng ven vịnh có suối nước nóng và hồ bơi. Có spa trong ngày.",
+    reasonHint: "Ngâm mình và nhìn ra biển.",
+  },
+  'mitsui-outlet-kisarazu': {
+    name: "Mitsui Outlet Park Kisarazu",
+    description: "Một trong những outlet lớn nhất gần Tokyo, có cửa hàng và đồ ăn.",
+    reasonHint: "Mua nhiều thương hiệu một lúc.",
+  },
+  'umihotaru': {
+    name: "Umihotaru",
+    description: "Trạm dừng trên Aqua-Line, nhìn biển và đêm.",
+    reasonHint: "Dừng lại trên mặt nước.",
+  },
+  'yoro-keikoku': {
+    name: "Thung lũng Yoro",
+    description: "Hẻm núi nổi tiếng lá đỏ và đi bộ. Nhìn đẹp từ cầu.",
+    reasonHint: "Đi thong thả trong rừng và thung lũng.",
+  },
+  'isumi-railway': {
+    name: "Đường sắt Isumi",
+    description: "Tàu địa phương, cửa sổ nhìn đồng và gần biển.",
+    reasonHint: "Ngồi tàu chậm ngắm cảnh.",
+  },
+  'shimizu-park': {
+    name: "Công viên Shimizu",
+    description: "Công viên lớn có cắm trại và đồ chơi. Hợp gia đình.",
+    reasonHint: "Vận động giữa cây xanh.",
+  },
+  'forest-adventure-tazania': {
+    name: "Forest Adventure Tazania",
+    description: "Đường chơi trên rừng, có zip-line.",
+    reasonHint: "Năng động trên tán cây.",
+  },
+  'inubosaki-lighthouse': {
+    name: "Hải đăng Inubosaki",
+    description: "Hải đăng phía đông Honshu, nhìn ra Thái Bình Dương.",
+    reasonHint: "Chụp biển và ngọn hải đăng.",
+  },
+  'tsurigasaki-beach': {
+    name: "Bãi Tsurigasaki",
+    description: "Bãi lướt sóng, từng là sân Olympic.",
+    reasonHint: "Sóng và bãi cát rộng.",
+  },
+  'choshi-ocean-institute': {
+    name: "Viện đại dương Choshi",
+    description: "Điểm xem cá heo và cá voi, sát biển.",
+    reasonHint: "Ra khơi gặp sinh vật biển.",
+  },
+  'hasunuma-water-garden': {
+    name: "Hasunuma Water Garden",
+    description: "Hồ bơi hè và khu vui ven biển.",
+    reasonHint: "Chơi lâu bên nước.",
+  },
+  'botanica-museum': {
+    name: "BOTANICA MUSEUM",
+    description: "Bảo tàng cây và không gian, hợp chụp ảnh.",
+    reasonHint: "Ngắm cây và trưng bày thong thả.",
+  },
+  'okinoshima-beach': {
+    name: "Bãi Okinoshima",
+    description: "Bãi tắm Tateyama, nước trong.",
+    reasonHint: "Tắm biển Nam Boso.",
+  },
+  'kujukuri-beach': {
+    name: "Bãi Kujukuri",
+    description: "Bãi cát dài ven Thái Bình Dương, hợp đi bộ.",
+    reasonHint: "Đi trên bãi rộng, hứng gió.",
+  },
+  'oyama-senmaida': {
+    name: "Ruộng bậc thang Oyama",
+    description: "Cảnh ruộng bậc, nổi tiếng lúc chiều và đèn đêm.",
+    reasonHint: "Chụp các thửa ruộng tầng.",
+  },
+  'windmill-liefde': {
+    name: "Cối xay gió Liefde",
+    description: "Cối xay gió kiểu Hà Lan gần đầm Inba, đẹp mùa hoa.",
+    reasonHint: "Chụp cối xay và mặt nước.",
+  },
+  'rosemary-park': {
+    name: "Trạm Rosemary Park",
+    description: "Trạm ven đường có vườn thảo mộc, quà và đi dạo.",
+    reasonHint: "Nghỉ ngơi gần biển, có hương thơm.",
+  },
+  'funabashi-andersen': {
+    name: "Công viên Andersen Funabashi",
+    description: "Công viên lớn chủ đề Đan Mạch, có hoa và đồ chơi.",
+    reasonHint: "Vườn xanh chơi được cả ngày.",
+  },
+  'nomizo-falls': {
+    name: "Thác Nomizo và hang Kameiwado",
+    description: "Thác nổi tiếng ánh sáng hình trái tim trong hang.",
+    reasonHint: "Chụp tạo hình thiên nhiên.",
+  },
+  'futtsu-cape': {
+    name: "Mũi Futtsu",
+    description: "Mũi nhìn ra vịnh Tokyo. Có ngày gió mạnh.",
+    reasonHint: "Nhìn trọn mặt vịnh.",
+  },
+  'niemonsima': {
+    name: "Đảo Niemon",
+    description: "Đảo nhỏ đi đò, từng là bối cảnh phim.",
+    reasonHint: "Đi bộ quanh đảo trên biển.",
+  },
+  'roman-no-mori': {
+    name: "Roman no Mori",
+    description: "Khu vui trong rừng, có trò chơi và trải nghiệm thiên nhiên.",
+    reasonHint: "Chơi nửa ngày giữa cây.",
+  },
+  'akebono-yama': {
+    name: "Công viên nông nghiệp Akebono-yama",
+    description: "Công viên nông nghiệp có hoa, tầm nhìn và ruộng theo mùa.",
+    reasonHint: "Hoa và cảnh cùng lúc.",
+  },
+  'sakuranoyama-park': {
+    name: "Công viên Sakuranoyama",
+    description: "Đồi nổi tiếng máy bay sân bay Narita và hoa anh đào.",
+    reasonHint: "Xem cất hạ cánh rất gần.",
+  },
+  'ichihara-elephant': {
+    name: "Vương quốc voi Ichihara",
+    description: "Sở thú nổi tiếng voi, hợp gia đình.",
+    reasonHint: "Gặp động vật lớn.",
+  },
+  'boso-no-mura': {
+    name: "Boso no Mura",
+    description: "Bảo tàng ngoài trời tái hiện phố cũ và nhà võ sĩ.",
+    reasonHint: "Đi bộ xem đời sống Boso xưa.",
+  },
+  'aviation-museum': {
+    name: "Bảo tàng hàng không",
+    description: "Bảo tàng máy bay cạnh sân bay Narita, nhiều hiện vật thật.",
+    reasonHint: "Xem cấu tạo máy bay sát mắt.",
+  },
+  'hoda-elementary-station': {
+    name: "Trạm trường Hoda",
+    description: "Trạm ven đường trong trường cũ, có quán và quà.",
+    reasonHint: "Nghỉ và ăn trong nhà trường.",
+  },
+  'hoki-museum': {
+    name: "Bảo tàng Hoki",
+    description: "Bảo tàng tranh hiện thực; kiến trúc cũng đáng xem.",
+    reasonHint: "Ngắm tranh yên tĩnh.",
+  },
+  'showa-no-mori': {
+    name: "Công viên Showa no Mori",
+    description: "Công viên nhiều cây, hợp đi dạo và nghỉ.",
+    reasonHint: "Thiên nhiên gần phố.",
+  },
+  'narita-yume-farm': {
+    name: "Nông trại Yume Narita",
+    description: "Nông trại du lịch có sữa và trượt cỏ.",
+    reasonHint: "Động vật và đồ ăn nông trại.",
+  },
+  'sakura-samurai-houses': {
+    name: "Nhà võ sĩ Sakura",
+    description: "Khu nhà võ sĩ còn lại; công viên thành gần đó.",
+    reasonHint: "Nhìn đời sống phố thành.",
+  },
+  'choshi-round-earth': {
+    name: "Đài quan sát Trái đất tròn",
+    description: "Chỗ nhìn Thái Bình Dương cong. Nổi tiếng bình minh đầu năm.",
+    reasonHint: "Cảm nhận đường chân trời.",
+  },
+  'katakai-beach': {
+    name: "Bãi Katakai",
+    description: "Bãi cát Kujukuri, cũng nổi tiếng pháo hoa.",
+    reasonHint: "Đi dọc bãi dài, cảm biển.",
+  },
+  'nojimazaki-lighthouse': {
+    name: "Hải đăng Nojimazaki",
+    description: "Hải đăng cực nam bán đảo Boso, nhìn ra biển.",
+    reasonHint: "Gió và cảnh ở cực nam.",
+  },
+  'haraoka-pier': {
+    name: "Cầu tàu Haraoka",
+    description: "Cầu gỗ nổi tiếng chụp ảnh, đẹp lúc chiều.",
+    reasonHint: "Đi trên cầu gỗ vươn ra biển.",
+  },
+  'tateyama-castle': {
+    name: "Thành Tateyama",
+    description: "Đồi có lầu thành, nhìn xuống vịnh Tateyama.",
+    reasonHint: "Thành và biển cùng lúc.",
+  },
+  'katsuura-undersea-tower': {
+    name: "Tháp nhìn biển Katsuura",
+    description: "Tháp có cửa sổ nhìn cá dưới nước.",
+    reasonHint: "Nhìn dưới biển không cần lặn.",
+  },
+  'ubara-coast': {
+    name: "Bờ Ubara",
+    description: "Điểm nhìn đá và biển, có lối đi bộ.",
+    reasonHint: "Đi bộ ngắm biển Nam Boso.",
+  },
+  'kameyama-lake': {
+    name: "Hồ Kameyama",
+    description: "Mặt hồ đập yên tĩnh, đẹp mùa lá đỏ.",
+    reasonHint: "Nghỉ bên hồ.",
+  },
+  'shisui-outlet': {
+    name: "Outlet Shisui",
+    description: "Outlet gần sân bay Narita; nhiều cửa mở đến tối.",
+    reasonHint: "Mua sắm trước hoặc sau chuyến bay.",
+  },
+  'i-link-town': {
+    name: "Đài i-link Town",
+    description: "Đài cao ở Ichikawa, nhìn đêm phía Tokyo.",
+    reasonHint: "Đêm phố từ trên cao.",
+  },
+  'keisei-rose-garden': {
+    name: "Vườn hồng Keisei",
+    description: "Vườn hồng Yachiyo, đẹp nhất lúc nở.",
+    reasonHint: "Chụp hoa thong thả.",
+  },
+  'hondoji-temple': {
+    name: "Chùa Hondoji",
+    description: "Chùa Matsudo nổi tiếng cẩm tú cầu và lá đỏ.",
+    reasonHint: "Hoa mùa và chùa cùng lúc.",
+  },
+  'kominato-railway': {
+    name: "Đường sắt Kominato",
+    description: "Tàu địa phương qua làng núi, cửa sổ đẹp.",
+    reasonHint: "Ngồi tàu cảm nhận nội địa Boso.",
+  },
+  'moriya-coast': {
+    name: "Bờ Moriya",
+    description: "Bãi nổi tiếng đảo nhỏ có cổng torii đỏ ngoài khơi.",
+    reasonHint: "Chụp biển và torii.",
+  },
+  'katsuura-tantanmen': {
+    name: "Tantanmen Katsuura",
+    description: "Ramen cay bắt nguồn từ Katsuura, món địa phương.",
+    reasonHint: "Một tô vị Boso.",
+  },
+  'white-gyoza': {
+    name: "Há cảo trắng",
+    description: "Há cảo vỏ trắng nổi tiếng Funabashi.",
+    reasonHint: "Món địa phương giá dễ chịu.",
+  },
+  'hakarime-don': {
+    name: "Cơm hakarime",
+    description: "Cơm cá mòi Kyonan, vị biển tươi.",
+    reasonHint: "Cá địa phương trong một bát.",
+  },
+  'suzuki-meshi': {
+    name: "Cơm cá vược",
+    description: "Món cơm cá vược Katsuura.",
+    reasonHint: "Cá phố cảng.",
+  },
+  'peanut-soft-cream': {
+    name: "Kem mềm đậu phộng",
+    description: "Kem mềm ở vùng lạc.",
+    reasonHint: "Đồ ngọt đúng chất Chiba.",
+  },
+  'choshi-tuna-don': {
+    name: "Cơm cá ngừ Choshi",
+    description: "Cơm cá ngừ sống ở cảng cá, miếng dày.",
+    reasonHint: "Ăn cá ngừ ngay nơi cập cảng.",
+  },
+  'egawa-clamming': {
+    name: "Bãi bắt nghêu Egawa",
+    description: "Chỗ bắt nghêu vịnh Tokyo, theo mùa.",
+    reasonHint: "Tìm sò trên cạn nông.",
+  },
+  'mitsui-outlet-makuhari': {
+    name: "Outlet Makuhari",
+    description: "Outlet ở Makuhari, gần Kaihin-Makuhari.",
+    reasonHint: "Mua sắm nhân tiện tham quan.",
+  },
+  'shirako-onsen': {
+    name: "Suối nóng Shirako",
+    description: "Khu suối nóng Kujukuri, có tắm trong ngày.",
+    reasonHint: "Ngâm mình sau bãi biển.",
+  },
+  'sakura-furusato': {
+    name: "Quảng trường Furusato Sakura",
+    description: "Bãi hoa và sự kiện, cảnh theo mùa.",
+    reasonHint: "Đổi không khí trên cỏ rộng.",
+  },
+  'futtsu-clamming': {
+    name: "Bãi bắt nghêu Futtsu",
+    description: "Bắt nghêu trên bãi triều Futtsu, đông nhất mùa xuân.",
+    reasonHint: "Gia đình chơi trên cạn nông.",
+  },
+  'onjuku-beach': {
+    name: "Bãi Onjuku",
+    description: "Bãi nổi tiếng “Sa mạc mặt trăng”, cũng tắm biển.",
+    reasonHint: "Đi bộ bãi Nam Boso.",
+  },
+  'choshi-fish-market': {
+    name: "Chợ hải sản Choshi",
+    description: "Chợ cá quanh cảng, có cơm tô.",
+    reasonHint: "Sức sống cảng cá buổi sáng.",
+  },
+  'akanohama-night': {
+    name: 'Công viên Akanohama về đêm',
+    description: 'Bãi cỏ ven biển với tòa nhà Makuhari và vịnh lúc tối. Hợp đi bộ và chụp ảnh.',
+    reasonHint: 'Ngắm đèn Makuhari bên bờ biển.',
+  },
+  'factory-night-cruise': {
+    name: 'Du thuyền đêm nhà máy cảng Chiba',
+    description: 'Tàu ngắm đèn nhà máy từ cảng. Chủ yếu quanh lúc hoàng hôn.',
+    reasonHint: 'Nhìn ánh đèn cảng từ trên thuyền.',
+  },
+  'kimisarazu-tower-night': {
+    name: 'Tháp Kimisarazu về đêm',
+    description: 'Tháp ở công viên Odayama. Đêm thấy phố và phía vịnh Tokyo.',
+    reasonHint: 'Chụp đêm Kisarazu từ trên cao.',
+  },
+  'daikeien': {
+    name: 'Daikeien',
+    description: 'Khu tiệc và giải trí. Có thể ở lại đến tối.',
+    reasonHint: 'Ăn uống và vui đêm một chỗ.',
+  },
+  'makuhari-yuraku': {
+    name: 'Suối nóng Makuhari Yuraku-no-Sato',
+    description: 'Suối nóng trong ngày ở Kaihin-Makuhari. Mở muộn, hợp kết thúc ngày.',
+    reasonHint: 'Ngâm mình sau khi tham quan.',
+  },
+  'sanbanze-night': {
+    name: 'Sanbanze Funabashi về đêm',
+    description: 'Công viên mở ra bãi triều và biển. Hợp đi bộ chiều tối.',
+    reasonHint: 'Hít gió đêm bờ Funabashi.',
+  },
+  'chiba-port-park-night': {
+    name: 'Công viên cảng Chiba về đêm',
+    description: 'Công viên chân tháp cảng. Đi bộ giữa ánh đèn.',
+    reasonHint: 'Dạo cảng đêm gần tháp.',
+  },
+  'kuukai-makuhari': {
+    name: 'Kuukai Kaihin-Makuhari',
+    description: 'Nhà hàng tầng cao ngắm đêm Makuhari khi ăn.',
+    reasonHint: 'Ăn tối với đèn thành phố ngoài cửa sổ.',
+  },
+  'philocoffea-funabashi': {
+    name: 'Philocoffea 201',
+    description: 'Quán cà phê specialty ở Funabashi. Canelé cũng nổi.',
+    reasonHint: 'Nghỉ với một tách cà phê đúng điệu.',
+  },
+  'houei-coffee-narita': {
+    name: 'HOUEI COFFEE cửa Naritasan',
+    description: 'Quán rang gần đường vào Naritasan. Hợp trước hoặc sau lễ.',
+    reasonHint: 'Cà phê mới pha cạnh cổng chùa.',
+  },
+  'tucano-narita': {
+    name: 'Tucano',
+    description: 'Quán cà phê nhà cổ ở Narita Daiei. Có cả món Brazil.',
+    reasonHint: 'Nghỉ trong nhà yên tĩnh.',
+  },
+  'caffe-vista-port-tower': {
+    name: 'Caffé Vista 109',
+    description: 'Quán trên tầng vọng cảnh tháp cảng. Nghỉ ngắm cảng.',
+    reasonHint: 'Đồ uống và tầm nhìn cao cùng lúc.',
+  },
+  'tonarino-cafe': {
+    name: 'Tonarino Cafe',
+    description: 'Quán cạnh tiệm bánh Higashi-Funabashi. Nổi parfait và chiffon.',
+    reasonHint: 'Chiều ngọt với bánh và cà phê.',
+  },
+  'mother-farm-milk-cafe': {
+    name: 'Cafe sữa Mother Farm',
+    description: 'Kem mềm và sữa trong nông trại.',
+    reasonHint: 'Ăn ngọt sau khi xem thú.',
+  },
+  'cafe-umihotaru': {
+    name: 'Cafe Umihotaru',
+    description: 'Chỗ nghỉ trên Umihotaru. Uống nước trên biển.',
+    reasonHint: 'Nghỉ giữa đường Aqua-Line.',
+  },
+  'rosemary-park-cafe': {
+    name: 'Cafe công viên Rosemary',
+    description: 'Cafe ở trạm ven đường. Hợp sau vườn thảo mộc.',
+    reasonHint: 'Nghỉ trên đường lái Nam Boso.',
+  },
+  'nagisa-no-eki-cafe': {
+    name: 'Cafe Nagisa-no-Eki Tateyama',
+    description: 'Trạm ven đường cảng Tateyama. Nghỉ nhìn biển.',
+    reasonHint: 'Đồ uống bên cảng.',
+  },
+  'shisui-outlet-cafe': {
+    name: 'Cafe outlet Shisui',
+    description: 'Cafe trong outlet. Tiện lúc mua sắm.',
+    reasonHint: 'Ngồi nghỉ giữa các cửa hàng.',
+  },
+  'cafe-dinh': {
+    name: 'Cafe Đinh',
+    description: 'Cà phê trứng nhìn Hồ Hoàn Kiếm, do con gái người sáng chế.',
+    reasonHint: 'Vừa ngắm hồ vừa uống cà phê nổi tiếng.',
+  },
+  'tranquil-books-coffee': {
+    name: 'Tranquil Books & Coffee',
+    description: 'Quán yên, nhiều sách, hơi lệch phố khách.',
+    reasonHint: 'Nghỉ với sách và cà phê, tránh đông.',
+  },
+  'hidden-gem-coffee': {
+    name: 'Hidden Gem Coffee',
+    description: 'Quán hẻm phố cổ, nội thất từ vật liệu tái chế.',
+    reasonHint: 'Nghỉ chụp ảnh trong ngõ.',
+  },
+  'hanoi-social-club': {
+    name: 'Hanoi Social Club',
+    description: 'Cafe nhà kiểu thuộc địa. Có đồ ăn nhẹ và cà phê.',
+    reasonHint: 'Ăn trưa yên trong nhà Tây.',
+  },
+  'ma-may-ancient-house': {
+    name: 'Nhà cổ Hà Nội',
+    description: 'Nhà truyền thống phố Mã Mây. Thấy nếp sống phố cổ.',
+    reasonHint: 'Chạm lịch sử phố cổ trong lúc ngắn.',
+  },
+  'yen-so-park': {
+    name: 'Công viên Yên Sở',
+    description: 'Công viên hồ lớn. Hợp đạp xe và đi bộ.',
+    reasonHint: 'Mảng xanh hơi ra khỏi trung tâm.',
+  },
+  'metropole-facade': {
+    name: 'Mặt tiền Sofitel Metropole',
+    description: 'Khách sạn Tây thời thuộc địa. Điểm chụp nổi tiếng.',
+    reasonHint: 'Chụp mặt tiền nhà cổ.',
+  },
+  'hang-dao-street': {
+    name: 'Phố Hàng Đào',
+    description: 'Phố mua sắm quần áo và đồ nhỏ ở phố cổ.',
+    reasonHint: 'Đi bộ tìm quà giá vừa.',
+  },
+  'manzi-art': {
+    name: 'Manzi Art Space',
+    description: 'Không gian nghệ thuật đương đại nhỏ, có cafe.',
+    reasonHint: 'Xem tranh trong phòng yên.',
+  },
+  'quang-an-walk': {
+    name: 'Đi bộ Quảng An',
+    description: 'Phố yên ven Hồ Tây, có hoa và quán.',
+    reasonHint: 'Đi chậm bên hồ.',
+  },
+  'bia-hoi-corner': {
+    name: 'Góc bia hơi',
+    description: 'Ngã tư bia hơi rẻ. Chiều tối dân địa phương tụ.',
+    reasonHint: 'Cốc bia nhẹ để cảm không khí đêm.',
+  },
+  'banh-mi-25': {
+    name: 'Bánh mì 25',
+    description: 'Quán bánh mì nổi phố Hàng Cá. Ăn nhanh.',
+    reasonHint: 'Thử bánh mì Hà Nội lúc đi bộ.',
   },
 }

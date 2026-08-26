@@ -1,5 +1,9 @@
 import type { CityId, HobbyTag, LifestyleTag } from '../types/place'
-import type { Gender } from '../types/traveler'
+import type { Gender, RangePref, TransportMode } from '../types/traveler'
+
+export const TRAVELER_AGE_MIN = 1
+export const TRAVELER_AGE_MAX = 120
+export const START_LABEL_MAX_LENGTH = 80
 
 export const CITY_OPTIONS: { value: CityId; label: string }[] = [
   { value: 'hanoi', label: 'ハノイ（ベトナム）' },
@@ -32,6 +36,41 @@ export const LIFESTYLE_OPTIONS: { value: LifestyleTag; label: string }[] = [
   { value: 'luxury', label: '少し贅沢' },
   { value: 'foodie', label: '食べ歩き' },
 ]
+
+export const TRANSPORT_OPTIONS: { value: TransportMode }[] = [
+  { value: 'train' },
+  { value: 'bus' },
+  { value: 'taxi' },
+]
+
+export const RANGE_PREF_OPTIONS: { value: RangePref }[] = [
+  { value: 'stayLocal' },
+  { value: 'explore' },
+]
+
+export function isCityId(value: unknown): value is CityId {
+  return CITY_OPTIONS.some((option) => option.value === value)
+}
+
+export function isGender(value: unknown): value is Gender {
+  return GENDER_OPTIONS.some((option) => option.value === value)
+}
+
+export function isHobbyTag(value: unknown): value is HobbyTag {
+  return HOBBY_OPTIONS.some((option) => option.value === value)
+}
+
+export function isLifestyleTag(value: unknown): value is LifestyleTag {
+  return LIFESTYLE_OPTIONS.some((option) => option.value === value)
+}
+
+export function isTransportMode(value: unknown): value is TransportMode {
+  return TRANSPORT_OPTIONS.some((option) => option.value === value)
+}
+
+export function isRangePref(value: unknown): value is RangePref {
+  return RANGE_PREF_OPTIONS.some((option) => option.value === value)
+}
 
 export const HOBBY_LABELS: Record<HobbyTag, string> = {
   foodie: 'グルメ',

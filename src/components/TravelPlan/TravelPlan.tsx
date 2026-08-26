@@ -8,6 +8,7 @@ import { getCityName } from '../../i18n/content'
 import { fillTemplate } from '../../i18n/ui'
 import { useLocale } from '../../i18n/LocaleContext'
 import { PlaceCard } from '../PlaceCard/PlaceCard'
+import { TravelLeg } from '../TravelLeg/TravelLeg'
 import type { DayPlan } from '../../types/plan'
 import type { CityId } from '../../types/place'
 import './TravelPlan.scss'
@@ -15,6 +16,7 @@ import './TravelPlan.scss'
 interface TravelPlanProps {
   plan: DayPlan
   cityId: CityId
+  startLabel: string
   isShuffling: boolean
   onShuffle: () => void
   onReset: () => void
@@ -23,6 +25,7 @@ interface TravelPlanProps {
 export function TravelPlan({
   plan,
   cityId,
+  startLabel,
   isShuffling,
   onShuffle,
   onReset,
@@ -47,6 +50,9 @@ export function TravelPlan({
             <Typography className="TravelPlanHeroLead" variant="body1">
               {ui.citySummary[cityId]}
             </Typography>
+            <Typography className="TravelPlanHeroStart" variant="body2">
+              {fillTemplate(ui.startFromLabel, { place: startLabel })}
+            </Typography>
             <Typography className="TravelPlanHeroCredit" variant="caption">
               {ui.photoCredit}: {visual.heroCredit}
             </Typography>
@@ -60,12 +66,20 @@ export function TravelPlan({
           />
           <Stack spacing={2}>
             {plan.slots.map((slot) => (
-              <PlaceCard
+              <Stack
                 key={`${slot.timeLabel}-${slot.place.id}`}
-                slot={slot}
-                cityId={cityId}
-                planLocale={plan.locale}
-              />
+                className="TravelPlanStop"
+                spacing={1}
+              >
+                {slot.travelFromPrevious !== undefined ? (
+                  <TravelLeg leg={slot.travelFromPrevious} />
+                ) : null}
+                <PlaceCard
+                  slot={slot}
+                  cityId={cityId}
+                  planLocale={plan.locale}
+                />
+              </Stack>
             ))}
           </Stack>
         </Box>
