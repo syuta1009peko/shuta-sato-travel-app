@@ -32,3 +32,7 @@ shuta-travel-chiba-b3ade307c85d.json
 .env.development.local
 .env.test.local
 .env.production.local
+
+＃ locaL development
+temp/
+logs/

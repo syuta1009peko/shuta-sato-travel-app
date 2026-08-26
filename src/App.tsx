@@ -73,6 +73,7 @@ function App() {
                 <TravelPlan
                   plan={plan}
                   cityId={traveler.cityId}
+                  startLabel={traveler.start.label}
                   isShuffling={loading}
                   onShuffle={() => {
                     void requestPlan(traveler, true)

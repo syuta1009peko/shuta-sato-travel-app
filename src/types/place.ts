@@ -42,6 +42,8 @@ export interface Place {
   descriptionJa: string
   reasonHintJa: string
   imageUrl?: string
+  lat: number
+  lng: number
 }
 
 export interface CityData {

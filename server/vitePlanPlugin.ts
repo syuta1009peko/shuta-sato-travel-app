@@ -2,7 +2,12 @@ import type { IncomingMessage, ServerResponse } from 'node:http'
 import type { Plugin } from 'vite'
 import { isAppLocale } from '../src/i18n/locale.ts'
 import { getUi } from '../src/i18n/ui.ts'
-import { buildDayPlanWithGemini, isPlanRequest } from './geminiPlan.ts'
+import { appendPlanLog, httpPlanLog, toEnglishLogError } from './planLog.ts'
+
+type PlanModule = Pick<
+  typeof import('./geminiPlan.ts'),
+  'buildDayPlanWithGemini' | 'isPlanRequest'
+>
 
 function readJsonBody(request: IncomingMessage): Promise<unknown> {
   return new Promise((resolve, reject) => {
@@ -72,8 +77,13 @@ export function vitePlanPlugin(): Plugin {
           try {
             const body = await readJsonBody(request)
             locale = localeFromUnknown(body)
+            const { buildDayPlanWithGemini, isPlanRequest } =
+              (await server.ssrLoadModule(
+                '/server/geminiPlan.ts',
+              )) as PlanModule
             const ui = getUi(locale)
             if (!isPlanRequest(body)) {
+              await appendPlanLog(httpPlanLog(400, getUi('en').errorInvalidInput))
               sendJson(response, 400, {
                 error: ui.errorInvalidInput,
               })
@@ -90,6 +100,7 @@ export function vitePlanPlugin(): Plugin {
             const ui = getUi(locale)
             const message =
               caught instanceof Error ? caught.message : ui.errorPlanFailed
+            await appendPlanLog(httpPlanLog(500, toEnglishLogError(message)))
             sendJson(response, 500, { error: message })
           }
         })()

@@ -1,5 +1,10 @@
 import type { Place } from '../types/place'
-import { minutesToTimeLabel, timeLabelToMinutes } from './slotTime'
+import {
+  ALWAYS_OPEN_HOURS,
+  MAX_CLOCK_MINUTES,
+  minutesToTimeLabel,
+  timeLabelToMinutes,
+} from './slotTime'
 
 type PlaceHours = Pick<Place, 'openLabel' | 'closeLabel' | 'durationMinutes'>
 
@@ -9,7 +14,17 @@ export interface OpeningWindow {
   latestStart: number
 }
 
+export function isAlwaysOpen(place: Pick<PlaceHours, 'openLabel' | 'closeLabel'>): boolean {
+  return place.openLabel === ALWAYS_OPEN_HOURS && place.closeLabel === ALWAYS_OPEN_HOURS
+}
+
 export function openingWindow(place: PlaceHours): OpeningWindow {
+  if (isAlwaysOpen(place)) {
+    const close = MAX_CLOCK_MINUTES
+    const latestStart = Math.max(0, close - place.durationMinutes)
+    return { open: 0, close, latestStart }
+  }
+
   const open = timeLabelToMinutes(place.openLabel) ?? 9 * 60
   const close = timeLabelToMinutes(place.closeLabel) ?? 21 * 60
   const latestStart = Math.max(open, close - place.durationMinutes)

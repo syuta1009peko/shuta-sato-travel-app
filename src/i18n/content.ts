@@ -1,4 +1,5 @@
 import type { Place, PriceRange } from '../types/place'
+import { ALWAYS_OPEN_HOURS } from '../utils/slotTime'
 import type { AppLocale } from './locale'
 import { PLACE_COPY_EN, type PlaceCopy } from './placeCopyEn'
 import { PLACE_COPY_VI } from './placeCopyVi'
@@ -54,6 +55,10 @@ export function formatHours(
   closeLabel: string,
   locale: AppLocale,
 ): string {
+  if (openLabel === ALWAYS_OPEN_HOURS && closeLabel === ALWAYS_OPEN_HOURS) {
+    return getUi(locale).hoursAlwaysOpen
+  }
+
   return fillTemplate(getUi(locale).hoursLabel, {
     open: openLabel,
     close: closeLabel,
@@ -74,6 +79,14 @@ export function slotNameFromTime(timeLabel: string, locale: AppLocale): string {
 
   if (!Number.isFinite(hour)) {
     return ui.slotFallback
+  }
+
+  if (hour >= 23) {
+    return ui.slotLateNight
+  }
+
+  if (hour >= 18) {
+    return ui.slotNight
   }
 
   if (hour < 11) {
