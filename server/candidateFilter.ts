@@ -209,24 +209,13 @@ function pickAttractions(
     place.lifestyle.includes(traveler.lifestyle),
   )
 
-  const pooled: Place[] = []
-  const append = (source: Place[]) => {
-    for (const place of source) {
-      if (pooled.some((item) => item.id === place.id)) {
-        continue
-      }
-
-      pooled.push(place)
-    }
-  }
-
-  append(hobbyHits)
+  let pooled = hobbyHits
   if (pooled.length < MIN_ATTRACTIONS) {
-    append(lifestyleHits)
+    pooled = takeUnique([...pooled, ...lifestyleHits], ranked.length)
   }
 
   if (pooled.length < MIN_ATTRACTIONS) {
-    append(ranked)
+    pooled = takeUnique([...pooled, ...ranked], ranked.length)
   }
 
   return takeUnique(pooled, MAX_ATTRACTIONS)

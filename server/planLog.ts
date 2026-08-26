@@ -96,22 +96,15 @@ const LOCALIZED_ERROR_KEYS = [
   'errorBuildPlan',
 ] as const
 
-const GOOGLE_CLOUD_PROJECT_JA = 'GOOGLE_CLOUD_PROJECT が設定されていません。'
-const GOOGLE_CLOUD_PROJECT_EN = 'GOOGLE_CLOUD_PROJECT is not set.'
-
 export function toEnglishLogError(message: string): string {
   const en = getUi('en')
-  for (const locale of ['ja', 'vi', 'en'] as const) {
+  for (const locale of ['ja', 'vi'] as const) {
     const ui = getUi(locale)
     for (const key of LOCALIZED_ERROR_KEYS) {
       if (message === ui[key]) {
         return en[key]
       }
     }
-  }
-
-  if (message === GOOGLE_CLOUD_PROJECT_JA) {
-    return GOOGLE_CLOUD_PROJECT_EN
   }
 
   return message

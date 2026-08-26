@@ -446,70 +446,102 @@ type SlotValidateIssue =
   | { kind: 'nightlifePlace' }
   | { kind: 'nightlifeLastEnd' }
 
-function formatValidateIssueJa(issue: SlotValidateIssue): string {
+function formatValidateIssue(
+  issue: SlotValidateIssue,
+  locale: 'ja' | 'en',
+): string {
+  const en = locale === 'en'
+
   switch (issue.kind) {
     case 'slotCount':
-      return `件数は ${MIN_SLOT_COUNT}〜${MAX_SLOT_COUNT} にしてください。`
+      return en
+        ? `Use ${MIN_SLOT_COUNT}–${MAX_SLOT_COUNT} stops.`
+        : `件数は ${MIN_SLOT_COUNT}〜${MAX_SLOT_COUNT} にしてください。`
     case 'unknownPlace':
-      return `placeId ${issue.placeId} は候補にありません。`
+      return en
+        ? `placeId ${issue.placeId} is not in the candidate list.`
+        : `placeId ${issue.placeId} は候補にありません。`
     case 'duplicatePlace':
-      return '同じ placeId を重複させないでください。'
+      return en
+        ? 'Do not repeat the same placeId.'
+        : '同じ placeId を重複させないでください。'
     case 'timeFormat':
-      return 'timeLabel は 9:00 または 25:00（翌朝1時）形式、上限は 30:00 にしてください。'
+      return en
+        ? 'timeLabel must be 9:00 or 25:00 (1:00 next day) format, max 30:00.'
+        : 'timeLabel は 9:00 または 25:00（翌朝1時）形式、上限は 30:00 にしてください。'
     case 'timeOrder':
-      return '時刻は昇順にしてください。'
+      return en
+        ? 'Times must be in ascending order.'
+        : '時刻は昇順にしてください。'
     case 'nightlifeStart':
-      return 'ナイトライフのみのときは 15:00 以降にしてください。'
+      return en
+        ? 'For nightlife-only, start at 15:00 or later.'
+        : 'ナイトライフのみのときは 15:00 以降にしてください。'
     case 'openingHours':
-      return `${issue.openLabel}〜${issue.closeLabel} の営業時間内に timeLabel を入れてください（閉店までに終わる時刻）。`
+      return en
+        ? `Put timeLabel within opening hours ${issue.openLabel}–${issue.closeLabel} (visit must finish before close).`
+        : `${issue.openLabel}〜${issue.closeLabel} の営業時間内に timeLabel を入れてください（閉店までに終わる時刻）。`
     case 'firstLeg':
-      return `最初の場所は出発地点から移動${issue.minutes}分以内にしてください。`
+      return en
+        ? `The first place must be within ${issue.minutes} minutes from the start point.`
+        : `最初の場所は出発地点から移動${issue.minutes}分以内にしてください。`
     case 'hopKm':
-      return `隣り合う場所は ${issue.km}km 以内にしてください。`
+      return en
+        ? `Neighboring places must be within ${issue.km} km.`
+        : `隣り合う場所は ${issue.km}km 以内にしてください。`
     case 'travelGap':
-      return '次の開始は、出発または前の滞在のあと、移動時間を足した時刻以降にしてください。'
+      return en
+        ? 'The next start must be after the previous stay plus travel time, or after departure plus travel time.'
+        : '次の開始は、出発または前の滞在のあと、移動時間を足した時刻以降にしてください。'
     case 'similarNames':
-      return '名前が似ている場所は1つまでにしてください。'
+      return en
+        ? 'Use at most one place with a similar name.'
+        : '名前が似ている場所は1つまでにしてください。'
     case 'hobbyAttraction':
-      return '観光は趣味に合う場所（matchedTags がある候補）を1つ以上入れてください。'
+      return en
+        ? 'Include at least one attraction that matches hobbies (a candidate with matchedTags).'
+        : '観光は趣味に合う場所（matchedTags がある候補）を1つ以上入れてください。'
     case 'nightlifePlace':
-      return 'ナイトライフの場所を1つ以上入れてください。'
+      return en
+        ? 'Include at least one nightlife place.'
+        : 'ナイトライフの場所を1つ以上入れてください。'
     case 'nightlifeLastEnd':
-      return 'ナイトライフを含むときは、最後の滞在を 23:00 以降まで続けてください。'
+      return en
+        ? 'When nightlife is included, keep the last visit going until 23:00 or later.'
+        : 'ナイトライフを含むときは、最後の滞在を 23:00 以降まで続けてください。'
   }
 }
 
-function formatValidateIssueEn(issue: SlotValidateIssue): string {
-  switch (issue.kind) {
-    case 'slotCount':
-      return `Use ${MIN_SLOT_COUNT}–${MAX_SLOT_COUNT} stops.`
-    case 'unknownPlace':
-      return `placeId ${issue.placeId} is not in the candidate list.`
-    case 'duplicatePlace':
-      return 'Do not repeat the same placeId.'
-    case 'timeFormat':
-      return 'timeLabel must be 9:00 or 25:00 (1:00 next day) format, max 30:00.'
-    case 'timeOrder':
-      return 'Times must be in ascending order.'
-    case 'nightlifeStart':
-      return 'For nightlife-only, start at 15:00 or later.'
-    case 'openingHours':
-      return `Put timeLabel within opening hours ${issue.openLabel}–${issue.closeLabel} (visit must finish before close).`
-    case 'firstLeg':
-      return `The first place must be within ${issue.minutes} minutes from the start point.`
-    case 'hopKm':
-      return `Neighboring places must be within ${issue.km} km.`
-    case 'travelGap':
-      return 'The next start must be after the previous stay plus travel time, or after departure plus travel time.'
-    case 'similarNames':
-      return 'Use at most one place with a similar name.'
-    case 'hobbyAttraction':
-      return 'Include at least one attraction that matches hobbies (a candidate with matchedTags).'
-    case 'nightlifePlace':
-      return 'Include at least one nightlife place.'
-    case 'nightlifeLastEnd':
-      return 'When nightlife is included, keep the last visit going until 23:00 or later.'
+function placesFromIds(
+  ids: Iterable<string>,
+  placesById: Map<string, Place>,
+): Place[] {
+  return [...ids].flatMap((id) => {
+    const place = placesById.get(id)
+    return place === undefined ? [] : [place]
+  })
+}
+
+function hasSimilarNamePair(places: Place[]): boolean {
+  for (let leftIndex = 0; leftIndex < places.length; leftIndex += 1) {
+    for (
+      let rightIndex = leftIndex + 1;
+      rightIndex < places.length;
+      rightIndex += 1
+    ) {
+      const leftPlace = places[leftIndex]
+      const rightPlace = places[rightIndex]
+      if (
+        leftPlace !== undefined &&
+        rightPlace !== undefined &&
+        placesShareDistinctiveName(leftPlace, rightPlace)
+      ) {
+        return true
+      }
+    }
   }
+
+  return false
 }
 
 function validateSlots(
@@ -594,32 +626,15 @@ function validateSlots(
     previousMinutes = minutes
   }
 
-  const selectedPlaces = slots.flatMap((slot) => {
-    const place = placesById.get(slot.placeId)
-    return place === undefined ? [] : [place]
-  })
-  for (let leftIndex = 0; leftIndex < selectedPlaces.length; leftIndex += 1) {
-    for (
-      let rightIndex = leftIndex + 1;
-      rightIndex < selectedPlaces.length;
-      rightIndex += 1
-    ) {
-      const leftPlace = selectedPlaces[leftIndex]
-      const rightPlace = selectedPlaces[rightIndex]
-      if (
-        leftPlace !== undefined &&
-        rightPlace !== undefined &&
-        placesShareDistinctiveName(leftPlace, rightPlace)
-      ) {
-        return { kind: 'similarNames' }
-      }
-    }
+  const selectedPlaces = placesFromIds(
+    slots.map((slot) => slot.placeId),
+    placesById,
+  )
+  if (hasSimilarNamePair(selectedPlaces)) {
+    return { kind: 'similarNames' }
   }
 
-  const poolPlaces = [...candidateIds].flatMap((id) => {
-    const place = placesById.get(id)
-    return place === undefined ? [] : [place]
-  })
+  const poolPlaces = placesFromIds(candidateIds, placesById)
   const hobbyAttractionsExist = poolPlaces.some(
     (place) =>
       place.category === 'attraction' &&
@@ -873,6 +888,80 @@ async function requestSlots(
   return slots
 }
 
+interface PlanAttemptInput {
+  attempt: number
+  traveler: Traveler
+  logTraveler: Traveler
+  city: CityData
+  candidates: CompactPlace[]
+  candidatesEn: CompactPlace[]
+  regenerate: boolean
+  retryNote: string
+  retryNoteEn: string
+  dayPace: DayPace
+  locale: AppLocale
+  placesById: Map<string, Place>
+  candidateIds: Set<string>
+  log: string[]
+}
+
+async function runPlanAttempt(input: PlanAttemptInput): Promise<{
+  fitted: GeminiSlot[]
+  issue: SlotValidateIssue | undefined
+}> {
+  const prompt = buildPrompt(
+    input.traveler,
+    input.city,
+    input.candidates,
+    input.regenerate,
+    input.retryNote,
+    input.dayPace,
+    input.locale,
+  )
+  input.log.push(
+    ...promptPlanLog(
+      input.attempt,
+      buildPrompt(
+        input.logTraveler,
+        input.city,
+        input.candidatesEn,
+        input.regenerate,
+        input.retryNoteEn,
+        input.dayPace,
+        'en',
+      ),
+    ),
+  )
+  const slots = await requestSlots(prompt, input.locale)
+  const fitted = fitSlotsToHours(slots, input.placesById, input.traveler)
+  const issue = validateSlots(
+    fitted,
+    input.placesById,
+    input.traveler,
+    input.candidateIds,
+  )
+  input.log.push(
+    ...attemptPlanLog(
+      input.attempt,
+      fitted,
+      issue === undefined ? undefined : formatValidateIssue(issue, 'en'),
+    ),
+  )
+  return { fitted, issue }
+}
+
+function retryNote(
+  locale: AppLocale,
+  issue: SlotValidateIssue,
+  errorLocale: 'ja' | 'en',
+): string {
+  return fillTemplate(getUi(locale).retryInvalidPlan, {
+    error: formatValidateIssue(issue, errorLocale),
+    min: MIN_SLOT_COUNT,
+    max: MAX_SLOT_COUNT,
+  })
+}
+
 export async function buildDayPlanWithGemini(
   traveler: Traveler,
   regenerate: boolean,
@@ -892,8 +981,20 @@ export async function buildDayPlanWithGemini(
     const candidateIds = new Set(candidates.map((place) => place.id))
     const placesById = new Map(city.places.map((place) => [place.id, place]))
     const dayPace = pickDayPace(normalized.rangePref)
-    const uiEn = getUi('en')
     const logTraveler = travelerForEnglishLog(normalized)
+    const attemptInput = {
+      traveler: normalized,
+      logTraveler,
+      city,
+      candidates,
+      candidatesEn,
+      regenerate,
+      dayPace,
+      locale,
+      placesById,
+      candidateIds,
+      log,
+    }
 
     log.push(
       ...beginPlanLog({
@@ -906,94 +1007,30 @@ export async function buildDayPlanWithGemini(
       }),
     )
 
-    const firstPrompt = buildPrompt(
-      normalized,
-      city,
-      candidates,
-      regenerate,
-      '',
-      dayPace,
-      locale,
-    )
-    log.push(
-      ...promptPlanLog(
-        1,
-        buildPrompt(logTraveler, city, candidatesEn, regenerate, '', dayPace, 'en'),
-      ),
-    )
-    const firstSlots = await requestSlots(firstPrompt, locale)
-    const firstFitted = fitSlotsToHours(firstSlots, placesById, normalized)
-    const firstIssue = validateSlots(
-      firstFitted,
-      placesById,
-      normalized,
-      candidateIds,
-    )
-    log.push(
-      ...attemptPlanLog(
-        1,
-        firstFitted,
-        firstIssue === undefined ? undefined : formatValidateIssueEn(firstIssue),
-      ),
-    )
-    if (firstIssue === undefined) {
+    const first = await runPlanAttempt({
+      ...attemptInput,
+      attempt: 1,
+      retryNote: '',
+      retryNoteEn: '',
+    })
+    if (first.issue === undefined) {
       log.push(resultPlanLog(true))
-      return toDayPlan(city, firstFitted, locale, normalized)
+      return toDayPlan(city, first.fitted, locale, normalized)
     }
 
-    const retryPrompt = buildPrompt(
-      normalized,
-      city,
-      candidates,
-      regenerate,
-      fillTemplate(ui.retryInvalidPlan, {
-        error: formatValidateIssueJa(firstIssue),
-        min: MIN_SLOT_COUNT,
-        max: MAX_SLOT_COUNT,
-      }),
-      dayPace,
-      locale,
-    )
-    log.push(
-      ...promptPlanLog(
-        2,
-        buildPrompt(
-          logTraveler,
-          city,
-          candidatesEn,
-          regenerate,
-          fillTemplate(uiEn.retryInvalidPlan, {
-            error: formatValidateIssueEn(firstIssue),
-            min: MIN_SLOT_COUNT,
-            max: MAX_SLOT_COUNT,
-          }),
-          dayPace,
-          'en',
-        ),
-      ),
-    )
-    const retrySlots = await requestSlots(retryPrompt, locale)
-    const retryFitted = fitSlotsToHours(retrySlots, placesById, normalized)
-    const retryIssue = validateSlots(
-      retryFitted,
-      placesById,
-      normalized,
-      candidateIds,
-    )
-    log.push(
-      ...attemptPlanLog(
-        2,
-        retryFitted,
-        retryIssue === undefined ? undefined : formatValidateIssueEn(retryIssue),
-      ),
-    )
-    if (retryIssue !== undefined) {
-      log.push(resultPlanLog(false, uiEn.errorBuildPlan))
+    const retry = await runPlanAttempt({
+      ...attemptInput,
+      attempt: 2,
+      retryNote: retryNote(locale, first.issue, 'ja'),
+      retryNoteEn: retryNote('en', first.issue, 'en'),
+    })
+    if (retry.issue !== undefined) {
+      log.push(resultPlanLog(false, getUi('en').errorBuildPlan))
       throw new Error(ui.errorBuildPlan)
     }
 
     log.push(resultPlanLog(true))
-    return toDayPlan(city, retryFitted, locale, normalized)
+    return toDayPlan(city, retry.fitted, locale, normalized)
   } catch (caught) {
     if (!log.some((line) => line.startsWith('result='))) {
       const message =
