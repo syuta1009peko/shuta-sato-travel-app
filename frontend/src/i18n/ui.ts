@@ -95,7 +95,7 @@ const JA: UiCopy = {
   errorHobbies: '趣味を1つ以上選んでください。',
   errorPlanFailed: 'プランの作成に失敗しました。',
   errorPlanUnavailable:
-    'プラン API に繋がっていません。表示中の開発サーバーの URL で開き直してください。',
+    'プラン API に繋がっていません。バックエンド（npm run dev:backend）が起動しているか確認してください。',
   errorInvalidInput: '入力内容が正しくありません。',
   retryInvalidPlan:
     '前回の出力は無効でした（{error}）。候補の id だけを使い、観光は matchedTags がある場所を選び、件数は {min}〜{max}、時刻は昇順、営業時間内にしてください。',
@@ -227,7 +227,7 @@ const EN: UiCopy = {
   errorHobbies: 'Please choose at least one interest.',
   errorPlanFailed: 'We could not create a plan. Please try again.',
   errorPlanUnavailable:
-    'The plan API is not available. Open the URL shown by the running dev server.',
+    'The plan API is not available. Check that the backend is running (npm run dev:backend).',
   errorInvalidInput: 'Some of the details look incomplete.',
   retryInvalidPlan:
     'The previous output was invalid ({error}). Use candidate ids only, pick attractions that have matchedTags, {min}–{max} stops, times in ascending order and within opening hours.',
@@ -360,7 +360,7 @@ const VI: UiCopy = {
   errorHobbies: 'Vui lòng chọn ít nhất một sở thích.',
   errorPlanFailed: 'Không lập được kế hoạch. Vui lòng thử lại.',
   errorPlanUnavailable:
-    'Không kết nối được API lập kế hoạch. Hãy mở đúng URL của máy chủ đang chạy.',
+    'Không kết nối được API lập kế hoạch. Hãy kiểm tra backend đang chạy (npm run dev:backend).',
   errorInvalidInput: 'Thông tin nhập chưa hợp lệ.',
   retryInvalidPlan:
     'Kết quả trước không hợp lệ ({error}). Chỉ dùng id trong danh sách, chọn điểm tham quan có matchedTags, {min}–{max} điểm, giờ tăng dần và trong giờ mở cửa.',
