@@ -32,10 +32,11 @@ GOOGLE_CLOUD_LOCATION＝
 
 ```bash
 npm install
-npm run dev
+npm run dev:backend
+npm run dev:frontend
 ```
 
-ブラウザで表示された URL（例: `http://localhost:5173`）を開きます。環境変数を変えたあとは開発サーバーを再起動してください。
+ブラウザで表示された URL（例: `http://localhost:5175`）を開きます。環境変数を変えたあとは開発サーバーを再起動してください。
 
 ## 使い方
 
@@ -50,8 +51,10 @@ npm run dev
 
 スポットの追加・修正は次の JSON を編集します。
 
-- `src/data/hanoi.json`
-- `src/data/chiba.json`
+- `backend/data/hanoi.json`
+- `backend/data/chiba.json`
+
+#npm run seed -w backend を走らせる
 
 `places` 配列にオブジェクトを足すだけで、AI の候補に入ります。
 

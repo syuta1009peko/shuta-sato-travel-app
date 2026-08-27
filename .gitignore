@@ -35,3 +35,6 @@ shuta-travel-chiba-b3ade307c85d.json
 
 # local development
 temp/
+
+*.sqlite
+*.sqlite-journal

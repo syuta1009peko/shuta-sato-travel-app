@@ -1,0 +1,70 @@
+.TravelPlanHero {
+  position: relative;
+  min-height: 200px;
+  overflow: hidden;
+  border-radius: 16px;
+  color: #FFFFFF;
+}
+
+.TravelPlanHeroPhoto {
+  position: absolute;
+  inset: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.TravelPlanHeroShade {
+  position: absolute;
+  inset: 0;
+  background-color: #1A1208A6;
+}
+
+.TravelPlanHeroText {
+  position: relative;
+  z-index: 1;
+  padding: 28px 24px;
+}
+
+.TravelPlanHeroTitle {
+  line-height: 1;
+}
+
+.TravelPlanHeroLead {
+  line-height: 1.5;
+  color: #F7EFE4;
+}
+
+.TravelPlanHeroStart {
+  margin-top: 8px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+.TravelPlanHeroCredit {
+  line-height: 1.5;
+  color: #FFFFFFB3;
+}
+
+.TravelPlanTimeline {
+  position: relative;
+  padding-left: 12px;
+}
+
+.TravelPlanLine {
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 7px;
+  width: 2px;
+  background-color: #C45C264D;
+}
+
+.TravelPlanActions {
+  position: sticky;
+  bottom: 16px;
+  z-index: 2;
+}
+
+.TravelPlanReset {
+  background-color: #FFFFFF;
+}
