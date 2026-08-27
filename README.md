@@ -32,11 +32,17 @@ GOOGLE_CLOUD_LOCATION＝
 
 ```bash
 npm install
+npm run dev
+```
+
+フロントとバックが同時に起動します。ブラウザで表示された URL（例: `http://localhost:5173`）を開きます。環境変数を変えたあとは開発サーバーを再起動してください。
+
+片方だけ動かすときは次を使います。
+
+```bash
 npm run dev:backend
 npm run dev:frontend
 ```
-
-ブラウザで表示された URL（例: `http://localhost:5175`）を開きます。環境変数を変えたあとは開発サーバーを再起動してください。
 
 ## 使い方
 
@@ -54,7 +60,7 @@ npm run dev:frontend
 - `backend/data/hanoi.json`
 - `backend/data/chiba.json`
 
-#npm run seed -w backend を走らせる
+直したあとに `npm run seed -w backend` を走らせます。
 
 `places` 配列にオブジェクトを足すだけで、AI の候補に入ります。
 

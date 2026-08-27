@@ -16,18 +16,24 @@ export async function fetchDayPlan(
   regenerate = false,
   locale: AppLocale = 'ja',
 ): Promise<DayPlan> {
-  const response = await fetch('/api/plan', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ traveler, regenerate, locale }),
-  })
-
-  const raw = await response.text()
   const uiCopy = getUi(locale)
 
-  if (raw.trim() === '') {
+  let response: Response
+  try {
+    response = await fetch('/api/plan', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ traveler, regenerate, locale }),
+    })
+  } catch {
+    throw new Error(uiCopy.errorPlanUnavailable)
+  }
+
+  const raw = await response.text()
+
+  if (raw.trim() === '' || response.status === 502) {
     throw new Error(uiCopy.errorPlanUnavailable)
   }
 
